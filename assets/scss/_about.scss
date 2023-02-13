@@ -44,6 +44,49 @@
     
     
 }
+/* ======= Service Section ======= */
+.service-section {
+    padding-top: 90px;
+    .section-title {
+        margin: 0;
+        margin-bottom: 15px;
+        font-size: 36px;
+        font-weight:300;
+    }
+    .intro {
+        color: $text-grey;
+        font-size: 16px;
+        max-width: 760px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+    
+    .items-wrapper {
+        margin-bottom: 60px;
+        .figure-holder {
+            margin-bottom: 15px;
+            vertical-align:bottom;
+        }
+        
+        .figure-image {
+	        max-width: 220px;
+        }
+        
+        
+        .item-inner {
+            padding: 30px;
+        }
+        .item-title {
+            color: $color-primary;
+            font-size: 18px;
+            font-weight: bold;
+            margin:0;
+            margin-bottom: 15px;
+        }
+        .item-desc {
+            color: $text-color-secondary;
+        }
+    }
 
 .technologies {
     margin-bottom: 30px;
