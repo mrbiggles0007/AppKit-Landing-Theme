@@ -445,7 +445,7 @@ a:focus {
 
 /* ======= About Section ======= */
 .about-section {
-  padding-top: 90px;
+  padding-top: 30px;
 }
 
 .about-section .section-title {
@@ -460,11 +460,11 @@ a:focus {
   font-size: 16px;
   max-width: 760px;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .about-section .items-wrapper {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .about-section .items-wrapper .figure-holder {
@@ -657,8 +657,8 @@ a:focus {
 
 /* ======= services Section ======= */
 .services-section {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .services-section .section-title {
@@ -673,7 +673,7 @@ a:focus {
   font-size: 16px;
   max-width: 760px;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .services-section .intro a {
@@ -717,8 +717,8 @@ a:focus {
 }
 /* ======= Features Section ======= */
 .features-section {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .features-section .section-title {
@@ -733,7 +733,7 @@ a:focus {
   font-size: 16px;
   max-width: 760px;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .features-section .intro a {
@@ -778,8 +778,8 @@ a:focus {
 
 /* ======= Pricing Section ======= */
 .pricing-section {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .pricing-section .section-title {
@@ -794,7 +794,7 @@ a:focus {
   font-size: 16px;
   max-width: 760px;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .pricing-wrapper {
@@ -841,7 +841,7 @@ a:focus {
   font-weight: 800;
   font-size: 18px;
   margin: 0;
-  min-height: 60px;
+  min-height: 30px;
 }
 
 .pricing-wrapper .item-heading-desc {
