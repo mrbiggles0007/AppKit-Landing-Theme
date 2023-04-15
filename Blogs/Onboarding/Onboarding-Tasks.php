@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4MFQK6JZKT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4MFQK6JZKT');
+  </script>
+  <!-- Clarity tracking code for https://optimizeddocs.com --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "g13ytvq90o");</script>
+    <title>Optimized Documentation Blog - MSP Documentation News & Views</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="../../favicon.ico"> 
+    
+    <!-- FontAwesome JS-->
+	<script defer src="../../assets/fontawesome/js/all.min.js"></script>
+    
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="../../assets/plugins/highlight/styles/monokai-sublime.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="../../assets/css/theme-2.css">
+ 	<!-- Sendinblue Conversations {literal} -->
+<script>
+    (function(d, w, c) {
+        w.SibConversationsID = '63ec49e4978f570f7a4645e5';
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        var s = d.createElement('script');
+        s.async = true;
+        s.src = 'https://conversations-widget.sendinblue.com/sib-conversations.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'SibConversations');
+</script>
+<!-- /Sendinblue Conversations {/literal} -->   
+
+</head> 
+
+<body>
+    
+    <header class="header text-center">	    
+	    <h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="../../blog.html">MSP Documentation</a></h1>
+        
+	    <nav class="navbar navbar-expand-lg navbar-dark" >
+           
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navigation" class="collapse navbar-collapse flex-column" >
+				<div class="profile-section pt-3 pt-lg-0">
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="../../assets/images/profile.png" alt="image" >			
+					
+					<div class="bio mb-3">Hi, my name is Adam Randall.<br><a href="../../about.html">Find out more about me</a></div><!--//bio-->
+			        <hr> 
+				</div><!--//profile-section-->
+				
+				<ul class="navbar-nav flex-column text-start">
+					<li class="nav-item">
+					    <a class="nav-link active" href="../../blog.html"><i class="fas fa-home fa-fw me-2"></i>Blog Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Privacy-Policy.html"><i class="fas fa-bookmark fa-fw me-2"></i>Privacy Policy</a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Consulting/Internal Documentation Management - Biggest MSP Mistake.html"><i class="fas fa-bookmark fa-fw me-2"></i>Latest Post</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Apps/Apps-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Apps</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Backups/Backups-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Backups</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Consulting/Consulting-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Consulting</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Diagrams/Diagrams-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Diagrams</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Hardware/Hardware-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Hardware</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Marketing/Marketing-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Marketing</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Security/Security-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Security</a>
+					</li>
+				</ul>
+				
+				<div class="my-2 my-md-3">
+					
+				    <a class="btn btn-primary" href="https://optimizeddocs.com/" target="_blank">Get in Touch</a>
+				    
+				</div>
+			</div>
+		</nav>
+    </header>
+    
+    <div class="main-wrapper">
+	    
+	    <article class="blog-post px-3 py-5 p-md-5">
+		    <div class="container single-col-max-width">
+			    <header class="blog-post-header">
+				    <h2 class="title mb-2">MSP Documentation Strategies - Onboarding Tasks</h3>
+				    <div class="meta mb-3"><span class="date">Published 2 days ago</span><span class="time">5 min read</span><span class="comment"><a  class="text-link" href="#">4 comments</a></span></div>
+			    </header>
+			    
+			    <div class="blog-post-body">
+				    <figure class="blog-banner">
+				        <a href="https://optimizeddocs.com"><img class="img-fluid" src="../../assets/images/blog/Blog-Images/onboarding.png" alt="image"></a>
+				    </figure>
+<p>When you work for a Managed Service Provider specializing in documentation, like OptimizedDocs, you quickly learn the importance of having a solid onboarding process in place. It can make all the difference when it comes to the success of your clients.</p>
+<br></br>
+<h3>The Onboarding Template for Managers</h3>
+<p>One of the key components of a successful onboarding process is having a template for managers to follow. This can help ensure that all necessary tasks are completed in a timely and efficient manner. At OptimizedDocs, we've found that using a detailed onboarding template is essential to our success.</p>
+<br></br>
+<h3>The New Customer Onboarding Template</h3>
+<p>When bringing on a new customer, it's important to have a specific onboarding template that takes into account their unique needs and requirements. Our onboarding template includes a comprehensive checklist that covers everything from initial client meetings to post-implementation follow-up.</p>
+<br></br>
+<h3>The Onboarding Process Onboarding Template</h3>
+<p>Yes, you read that right. We have an onboarding template for our onboarding process. This may seem redundant, but we've found that having a clearly defined process for bringing on new clients ensures that nothing falls through the cracks. It also helps our team members stay on track and communicate more effectively with each other.</p>
+<br></br>
+<h3>The Information Technology Onboarding Checklist Template</h3>
+<p>For MSPs, having an IT onboarding checklist template is a must. This ensures that all necessary technology-related tasks are completed during the onboarding process. Our IT onboarding checklist template includes everything from setting up new accounts to configuring software and hardware.</p>
+<br></br>
+<h3>The Client Onboarding Templates</h3>
+<p>At OptimizedDocs, we've developed a variety of client onboarding templates to help streamline the process. These templates cover everything from basic client information to more complex documentation requirements. We've found that having these templates in place not only saves time, but also ensures consistency across our client base.</p>
+<br></br>
+<h3>The MSP Onboarding Checklist Template</h3>
+<p>For MSPs, having an onboarding checklist template is crucial. Our MSP onboarding checklist template includes all of the key tasks required to onboard new clients, including setting up accounts, configuring software, and developing custom documentation.</p>
+<br></br>
+<h3>Onboarding Document Examples</h3>
+<p>To help our team members better understand the onboarding process, we provide them with onboarding document examples. These examples showcase best practices and provide a clear understanding of what's expected during the onboarding process.</p>
+<br></br>
+<h3>The IT Onboarding Checklist Template Excel</h3>
+<p>For those who prefer working in Excel, we also offer an IT onboarding checklist template that's specifically designed for this software. This template includes all of the same tasks as our standard IT onboarding checklist template, but is formatted for easy use in Excel.</p>
+<br></br>
+<h3>The IT Onboarding Checklist Template</h3>
+<p>Of course, not everyone uses Excel. For those who prefer other software, we offer an IT onboarding checklist template that can be used in a variety of programs. This template is fully customizable, so it can be tailored to meet the unique needs of each client.</p>
+<br></br>
+<h3>The Staff Onboarding Template</h3>
+<p>Finally, we have our staff onboarding template. This template is used to onboard new team members and ensures that they have all the tools and information they need to be successful. It covers everything from company policies to job-specific training.</p>
+<br></br>
+<h3>ConnectWise Manage</h3>
+<p>One of the key vendors we use for our PSA is ConnectWise Manage. This platform is essential for managing support desk functions, projects, and client information storage. We've found that using ConnectWise Manage has helped us streamline our operations and improve our overall efficiency.</p>
+	    </article>
+	    <footer class="footer text-center py-2 theme-bg-dark">
+		   
+	        <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+		   
+	    </footer>
+    
+    </div><!--//main-wrapper-->
+
+    <!-- Javascript -->          
+    <script src="../../assets/plugins/popper.min.js"></script> 
+    <script src="../../assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+
+    <!-- Page Specific JS -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="../../assets/js/blog.js"></script> 
+    
+
+</body>
+</html> 
+

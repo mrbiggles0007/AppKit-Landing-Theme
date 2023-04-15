@@ -19,13 +19,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="MSP Documentation Blog">
     <meta name="author" content="Adam Randall">    
-    <link rel="shortcut icon" href="favicon.ico"> 
+    <link rel="shortcut icon" href="../../favicon.ico"> 
     
     <!-- FontAwesome JS-->
-	<script defer src="assets/fontawesome/js/all.min.js"></script>
+	<script defer src="../../assets/fontawesome/js/all.min.js"></script>
     
     <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/theme-2.css">
+    <link id="theme-style" rel="stylesheet" href="../../assets/css/theme-2.css">
 	<!-- Sendinblue Conversations {literal} -->
 <script>
     (function(d, w, c) {
@@ -45,7 +45,7 @@
 <body>
     
     <header class="header text-center">	    
-	    <h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="blog.html">MSP Documentation</a></h1>
+	    <h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="../../blog.html">MSP Documentation</a></h1>
         
 	    <nav class="navbar navbar-expand-lg navbar-dark" >
            
@@ -55,9 +55,9 @@
 
 			<div id="navigation" class="collapse navbar-collapse flex-column" >
 				<div class="profile-section pt-3 pt-lg-0">
-				    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/profile.webp" alt="image" >			
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="../../assets/images/profile.webp" alt="image" >			
 					
-					<div class="bio mb-3">Hi, my name is Adam Randall.<br><a href="about.html">Find out more about me</a></div><!--//bio-->
+					<div class="bio mb-3">Hi, my name is Adam Randall.<br><a href="../../about.html">Find out more about me</a></div><!--//bio-->
 			        <hr> 
 				</div><!--//profile-section-->
 				
@@ -65,10 +65,10 @@
 					<li class="nav-item">
 					    <a class="nav-link active" href="blog.html"><i class="fas fa-home fa-fw me-2"></i>Blog Home <span class="sr-only">(current)</span></a>
 					</li>
-					<li class="nav-item">						
+					<li class="nav-item">
 					    <a class="nav-link" href="/Blogs/Privacy-Policy.html"><i class="fas fa-bookmark fa-fw me-2"></i>Privacy Policy</a>
-					</li>
-					<li class="nav-item">					
+					</li>					
+					<li class="nav-item">
 					    <a class="nav-link" href="/Blogs/Consulting/Internal Documentation Management - Biggest MSP Mistake.html"><i class="fas fa-bookmark fa-fw me-2"></i>Latest Post</a>
 					</li>
 										<li class="nav-item">
@@ -245,7 +245,7 @@
 			    <div class="item mb-5">
 				    <div class="row g-3 g-xl-0">
 					    <div class="col-2 col-xl-3">
-					        <img class="img-fluid post-thumb " src="assets/images/blog/Blog-Link-Images/onboarding.png" alt="image">
+					        <img class="img-fluid post-thumb " src="../../assets/images/blog/Blog-Link-Images/onboarding.png" alt="image">
 					    </div>
 					    <div class="col">
 						    <h3 class="title mb-1"><a class="text-link" href="/Blogs/Onboarding/Onboarding-Tasks.html">MSP Documentation Strategies - Onboarding Tasks</a></h3>
@@ -259,7 +259,7 @@
 			    <div class="item mb-5">
 				    <div class="row g-3 g-xl-0">
 					    <div class="col-2 col-xl-3">
-					        <img class="img-fluid post-thumb " src="assets/images/blog/Blog-Link-Images/offboarding.png" alt="image">
+					        <img class="img-fluid post-thumb " src="../../assets/images/blog/Blog-Link-Images/offboarding.png" alt="image">
 					    </div>
 					    <div class="col">
 						    <h3 class="title mb-1"><a class="text-link" href="/Blogs/Offboarding/Offboarding-Tasks.html">Offboarding: Element for Competitive Success</a></h3>
@@ -273,7 +273,7 @@
 			    <div class="item mb-5">
 				    <div class="row g-3 g-xl-0">
 					    <div class="col-2 col-xl-3">
-					        <img class="img-fluid post-thumb" src="assets/images/blog/Blog-Link-Images/Consulting-services.png" alt="image">
+					        <img class="img-fluid post-thumb" src="../../assets/images/blog/Blog-Link-Images/Consulting-services.png" alt="image">
 					    </div>
 					    <div class="col">
 						    <h3 class="title mb-1"><a class="text-link" href="/Blogs/Consulting/Consulting-Services.html">Documentation Strategies - MSP Consulting Services</a></h3>
@@ -287,7 +287,7 @@
 			    <div class="item mb-5">
 				    <div class="row g-3 g-xl-0">
 					    <div class="col-2 col-xl-3">
-					        <img class="img-fluid post-thumb" src="assets/images/blog/Blog-Link-Images/IT-Consulting-Services.png" alt="image">
+					        <img class="img-fluid post-thumb" src="../../assets/images/blog/Blog-Link-Images/IT-Consulting-Services.png" alt="image">
 					    </div>
 					    <div class="col">
 						    <h3 class="title mb-1"><a class="text-link" href="/Blogs/Consulting/IT-Consulting-Services.html">Documentation Strategies - IT Consulting Organizations</a></h3>
@@ -302,7 +302,7 @@
 			    <div class="item mb-5">
 				    <div class="row g-3 g-xl-0">
 					    <div class="col-2 col-xl-3">
-					        <img class="img-fluid post-thumb" src="assets/images/blog/Blog-Link-Images/msp-consulting.png" alt="image">
+					        <img class="img-fluid post-thumb" src="../../assets/images/blog/Blog-Link-Images/msp-consulting.png" alt="image">
 					    </div>
 					    <div class="col">
 						    <h3 class="title mb-1"><a class="text-link" href="/Blogs/Consulting/MSP-Consulting.html">Documentation Strategies - MSP Consulting Services</a></h3>
@@ -316,7 +316,7 @@
 			    <div class="item">
 				    <div class="row g-3 g-xl-0">
 					    <div class="col-2 col-xl-3">
-					        <img class="img-fluid post-thumb" src="assets/images/blog/Blog-Link-Images/msp-consulting.png" alt="image">
+					        <img class="img-fluid post-thumb" src="../../assets/images/blog/Blog-Link-Images/msp-consulting.png" alt="image">
 					    </div>
 					    <div class="col">
 						    <h3 class="title mb-1"><a class="text-link" href="/Blogs/Consulting/MSP-Consulting.html">Documentation Strategies - MSP Consulting Services</a></h3>

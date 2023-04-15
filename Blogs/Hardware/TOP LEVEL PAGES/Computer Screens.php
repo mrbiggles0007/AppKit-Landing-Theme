@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4MFQK6JZKT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4MFQK6JZKT');
+  </script>
+  <!-- Clarity tracking code for https://optimizeddocs.com --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "g13ytvq90o");</script>
+    <title>Overview Of Computer Screens 2023</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Overview Of Computer Screens 2023">
+    <meta name="author" content="Adam Randall at MSP Optimized Documentation">    
+    <link rel="shortcut icon" href="../../../favicon.ico"> 
+    
+    <!-- FontAwesome JS-->
+	<script defer src="../../../assets/fontawesome/js/all.min.js"></script>
+    
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="../../../assets/plugins/highlight/styles/monokai-sublime.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="../../../assets/css/theme-2.css">
+</head> 
+
+<body>
+    
+    <header class="header text-center">	    
+	    <h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="../../../blog.html">MSP Documentation</a></h1>
+        
+	    <nav class="navbar navbar-expand-lg navbar-dark" >
+           
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navigation" class="collapse navbar-collapse flex-column" >
+				<div class="profile-section pt-3 pt-lg-0">
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="../../../assets/images/profile.webp" alt="image" >			
+					
+					<div class="bio mb-3">Hi, my name is Adam Randall.<br><a href="../../../about.html">Find out more about me</a></div><!--//bio-->
+			        <hr> 
+				</div><!--//profile-section-->
+				
+				<ul class="navbar-nav flex-column text-start">
+					    <a class="nav-link active" href="../../../blog.html"><i class="fas fa-home fa-fw me-2"></i>Blog Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Privacy-Policy.html"><i class="fas fa-bookmark fa-fw me-2"></i>Privacy Policy</a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Consulting/Internal Documentation Management - Biggest MSP Mistake.html"><i class="fas fa-bookmark fa-fw me-2"></i>Latest Post</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Apps/Apps-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Apps</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Backups/Backups-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Backups</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Consulting/Consulting-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Consulting</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Diagrams/Diagrams-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Diagrams</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Hardware/Hardware-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Hardware</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Marketing/Marketing-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Marketing</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Security/Security-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Security</a>
+					</li>
+				</ul>
+				
+				<div class="my-2 my-md-3">
+					
+				    <a class="btn btn-primary" href="https://optimizeddocs.com/" target="_blank">Get in Touch 2023</a>
+				    
+				</div>
+			</div>
+		</nav>
+    </header>
+    
+    <div class="main-wrapper">
+	    
+	    <article class="blog-post px-3 py-5 p-md-5">
+		    <div class="container single-col-max-width">
+			    <header class="blog-post-header">
+				    <h2 class="title mb-2">Overview Of Computer Screens 2023</h3>
+				    <div class="meta mb-3"><span class="date">Published 45 days ago</span><span class="time">5 min read</span><span class="date"><a class="text-link" href="/Blogs/Hardware/Business Notebooks & Laptops Index.html">More Blogs About Computer Screens HERE...</a></span>
+			    </header>
+			    
+			    <div class="blog-post-body">
+				    <figure class="blog-banner">
+				        <a href="/Blogs/Hardware/Computer Screens Index.html"><img class="img-fluid" src="../../../assets/images/blog/Blog-Images/Hardware/Computer Screens Index.png" alt="Computer Screens"></a>
+				    </figure>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">In today's digital age, computer screens have become an essential part of our daily lives. They are ubiquitous in homes, schools, and offices, and have revolutionized the way we interact with technology. A computer screen, also known as a monitor, is an electronic display device used to display visual output from a computer. In this essay, we will explore the fundamentals and basics of computer screens, including their historical background, types, components, and factors to consider when purchasing one.</span></p>
+<p><span style="font-weight: 400;">Computer screens have come a long way since the first computer monitor, which was invented in 1939 by John V. Atanasoff and Clifford Berry. The first computer monitor was a cathode ray tube (CRT) monitor, which used an electron gun to project an image onto a phosphorescent screen. These monitors were large, bulky, and heavy, and were only capable of displaying monochrome images. However, they were the only option available for many years and were the standard display device for computers until the late 1990s.</span></p>
+<p><span style="font-weight: 400;">With advancements in technology, computer screens have evolved, and today there are different types of screens available in the market. The most common types of computer screens available are CRT (Cathode Ray Tube), LCD (Liquid Crystal Display), LED (Light-Emitting Diode), and OLED (Organic Light-Emitting Diode) screens. Each of these screens has its own unique features, advantages, and disadvantages. In this essay, we will delve into each of these types and explore their differences.</span></p>
+<h2><span style="font-weight: 400;">Types of Computer Screens</span></h2>
+<p><span style="font-weight: 400;">Computer screens have evolved over time, and today, there are four main types of computer screens: CRT, LCD, LED, and OLED. Each of these screens has its own unique features, advantages, and disadvantages.</span></p>
+<h3><span style="font-weight: 400;">CRT (Cathode Ray Tube) Screens</span></h3>
+<p><span style="font-weight: 400;">CRT screens are the oldest type of computer screens and were widely used until the late 1990s. These screens use a cathode ray tube, which projects an image onto a phosphorescent screen. CRT screens are bulky, heavy, and consume a lot of energy. They also emit radiation, which can be harmful to human health. Despite their disadvantages, CRT screens were popular because of their low cost and high color accuracy.</span></p>
+<h3><span style="font-weight: 400;">LCD (Liquid Crystal Display) Screens</span></h3>
+<p><span style="font-weight: 400;">LCD screens are currently the most popular type of computer screens. These screens use liquid crystals to create an image on the screen. They are thinner, lighter, and consume less energy than CRT screens. LCD screens are available in a variety of sizes and resolutions and are known for their high color accuracy. However, they have some disadvantages, such as a limited viewing angle and a slower refresh rate.</span></p>
+<h3><span style="font-weight: 400;">LED (Light-Emitting Diode) Screens</span></h3>
+<p><span style="font-weight: 400;">LED screens are a type of LCD screen that uses LEDs to backlight the screen. These screens are more energy-efficient than LCD screens and have a faster refresh rate. They also have a higher contrast ratio and are thinner and lighter than LCD screens. LED screens are available in a variety of sizes and resolutions and are becoming increasingly popular. However, they are more expensive than LCD screens and can have a limited viewing angle.</span></p>
+<h3><span style="font-weight: 400;">OLED (Organic Light-Emitting Diode) Screens</span></h3>
+<p><span style="font-weight: 400;">OLED screens are a newer type of computer screen that uses organic compounds to create light. These screens are thinner, lighter, and more flexible than LCD and LED screens. They also have a faster refresh rate, a wider viewing angle, and a higher contrast ratio. OLED screens are known for their high color accuracy and deep blacks. However, they are more expensive than LCD and LED screens and can suffer from image retention or burn-in.</span></p>
+<h2><span style="font-weight: 400;">Components of a Computer Screen</span></h2>
+<p><span style="font-weight: 400;">Apart from the type of screen, a computer screen has various components that determine its quality and performance. Understanding these components is essential when purchasing a computer screen.</span></p>
+<h3><span style="font-weight: 400;">Screen Size and Resolution</span></h3>
+<p><span style="font-weight: 400;">Screen size and resolution are two of the most important components of a computer screen. Screen size refers to the diagonal measurement of the screen in inches, while resolution refers to the number of pixels on the screen. The higher the resolution, the sharper the image. It's important to choose a screen size and resolution that suits your needs. A larger screen size and higher resolution are better for activities such as gaming and video editing, while a smaller screen size and lower resolution are sufficient for everyday tasks.</span></p>
+<h3><span style="font-weight: 400;">Refresh Rate</span></h3>
+<p><span style="font-weight: 400;">Refresh rate refers to the number of times per second that the screen updates the image. A higher refresh rate means a smoother image, which is important for activities such as gaming and watching videos. The refresh rate is measured in Hertz (Hz), and a refresh rate of at least 60Hz is recommended for most users.</span></p>
+<h3><span style="font-weight: 400;">Response Time</span></h3>
+<p><span style="font-weight: 400;">Response time refers to the time it takes for a pixel on the screen to change from one color to another. A faster response time means less motion blur, which is important for activities such as gaming and watching videos. Response time is measured in milliseconds (ms), and a response time of 5ms or less is recommended for most users.</span></p>
+<h2><span style="font-weight: 400;">Color Depth</span></h2>
+<p><span style="font-weight: 400;">Color depth refers to the number of colors that a screen can display. The higher the color depth, the more colors that can be displayed, resulting in a more realistic and accurate image.</span></p>
+<p><span style="font-weight: 400;">Color depth is measured in bits, and the most common color depths are 8-bit, 10-bit, and 12-bit. An 8-bit color depth can display 16.7 million colors, while a 10-bit color depth can display 1.07 billion colors, and a 12-bit color depth can display 68.7 billion colors.</span></p>
+<p><span style="font-weight: 400;">The color depth of a screen is important for activities such as graphic design and photography, where color accuracy is crucial. However, for everyday tasks such as browsing the web and checking email, an 8-bit color depth is sufficient.</span></p>
+<p><span style="font-weight: 400;">In conclusion, computer screens have come a long way since the early days of computing. From monochrome displays to high-resolution screens with millions of colors, screens have become an essential part of our daily lives.</span></p>
+<p><span style="font-weight: 400;">In this essay, we have explored the fundamentals and basics of computer screens, including their history, types, resolutions, refresh rates, aspect ratios, and color depths. We have learned that the choice of screen depends on the intended use, with different types of screens being suitable for different tasks.</span></p>
+<p><span style="font-weight: 400;">As technology continues to advance, we can expect to see even more improvements in computer screens. OLED and microLED screens offer even better image quality and energy efficiency than traditional LCD screens, and we can expect to see these technologies become more widespread in the coming years.</span></p>
+<p><span style="font-weight: 400;">Overall, computer screens are an essential part of modern computing and play a crucial role in our work and leisure activities. By understanding the basics of computer screens, we can make informed decisions when purchasing and using screens, and ensure that we are getting the most out of these essential devices.</span></p>
+<h2><span style="font-weight: 400;">FAQ</span></h2>
+<p><strong>Q: What is the difference between a monitor and a screen?</strong></p>
+<p><span style="font-weight: 400;">A: In the context of computing, the terms "monitor" and "screen" are often used interchangeably. However, a monitor typically refers to a display device that is connected to a computer, while a screen may refer to any type of display, including those used in televisions and mobile devices.</span></p>
+<p><strong>Q: What is the best resolution for a computer screen?</strong></p>
+<p><span style="font-weight: 400;">A: The best resolution for a computer screen depends on the intended use. For general use, a 1080p (1920 x 1080) resolution is sufficient. However, for tasks such as graphic design and video editing, a higher resolution such as 4K (3840 x 2160) may be necessary.</span></p>
+<p><strong>Q: What is a good refresh rate for a computer screen?</strong></p>
+<p><span style="font-weight: 400;">A: A good refresh rate for a computer screen is typically 60Hz, which means the screen refreshes 60 times per second. However, for gaming and other fast-paced activities, a higher refresh rate of 120Hz or more may be preferable.</span></p>
+<p><strong>Q: What is aspect ratio?</strong></p>
+<p><span style="font-weight: 400;">A: Aspect ratio refers to the proportional relationship between the width and height of a screen. The most common aspect ratio for computer screens is 16:9, which is also the standard for high-definition video.</span></p>
+<p><strong>Q: What is color depth?</strong></p>
+<p><span style="font-weight: 400;">A: Color depth refers to the number of colors that a screen can display. The higher the color depth, the more colors that can be displayed, resulting in a more realistic and accurate image.</span></p>
+<p><strong>Q: What types of connectors are used to connect a computer screen to a computer?</strong></p>
+<p><span style="font-weight: 400;">A: The most common types of connectors used to connect a computer screen to a computer are HDMI, DisplayPort, and VGA.</span></p>
+
+<p>&nbsp;</p>
+	    </article>
+	    <footer class="footer text-center py-2 theme-bg-dark">
+		   
+	        <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+		   
+	    </footer>
+    
+    </div><!--//main-wrapper-->
+
+    <!-- Javascript -->          
+    <script src="../../../assets/plugins/popper.min.js"></script> 
+    <script src="../../../assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+
+    <!-- Page Specific JS -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="../../../assets/js/blog.js"></script> 
+    
+
+</body>
+</html> 
+

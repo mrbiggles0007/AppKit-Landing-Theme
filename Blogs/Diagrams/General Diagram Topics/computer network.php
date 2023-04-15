@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4MFQK6JZKT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4MFQK6JZKT');
+  </script>
+  <!-- Clarity tracking code for https://optimizeddocs.com --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "g13ytvq90o");</script>
+    <title>5 Tips on Documentation in IT Small Business Support in 2023</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="How to Create Computer Network Diagrams 2023">
+    <meta name="author" content="Adam Randall at MSP Optimized Documentation">    
+    <link rel="shortcut icon" href="../../../favicon.ico"> 
+    
+    <!-- FontAwesome JS-->
+	<script defer src="../../../assets/fontawesome/js/all.min.js"></script>
+    
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="../../../assets/plugins/highlight/styles/monokai-sublime.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="../../../assets/css/theme-2.css">
+</head> 
+
+<body>
+    
+    <header class="header text-center">	    
+	    <h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="../../../blog.html">MSP Documentation</a></h1>
+        
+	    <nav class="navbar navbar-expand-lg navbar-dark" >
+           
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navigation" class="collapse navbar-collapse flex-column" >
+				<div class="profile-section pt-3 pt-lg-0">
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="../../../assets/images/profile.webp" alt="image" >			
+					
+					<div class="bio mb-3">Hi, my name is Adam Randall.<br><a href="../../../about.html">Find out more about me</a></div><!--//bio-->
+			        <hr> 
+				</div><!--//profile-section-->
+				
+				<ul class="navbar-nav flex-column text-start">
+					    <a class="nav-link active" href="../../../blog.html"><i class="fas fa-home fa-fw me-2"></i>Blog Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Privacy-Policy.html"><i class="fas fa-bookmark fa-fw me-2"></i>Privacy Policy</a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Consulting/Internal Documentation Management - Biggest MSP Mistake.html"><i class="fas fa-bookmark fa-fw me-2"></i>Latest Post</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Apps/Apps-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Apps</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Backups/Backups-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Backups</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Consulting/Consulting-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Consulting</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Diagrams/Diagrams-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Diagrams</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Hardware/Hardware-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Hardware</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Marketing/Marketing-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Marketing</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Security/Security-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Security</a>
+					</li>
+				</ul>
+				
+				<div class="my-2 my-md-3">
+					
+				    <a class="btn btn-primary" href="https://optimizeddocs.com/" target="_blank">Get in Touch</a>
+				    
+				</div>
+			</div>
+		</nav>
+    </header>
+    
+    <div class="main-wrapper">
+	    
+	    <article class="blog-post px-3 py-5 p-md-5">
+		    <div class="container single-col-max-width">
+			    <header class="blog-post-header">
+				    <h2 class="title mb-2">How to Create Computer Network Diagrams 2023</h3>
+				    <div class="meta mb-3"><span class="date">Published 32 days ago</span><span class="time">5 min read</span>
+			    </header>
+			    
+			    <div class="blog-post-body">
+				    <figure class="blog-banner">
+				        <a href="https://optimizeddocs.com"><img class="img-fluid" src="../../../assets/images/blog/Blog-Images/Consulting/5-tips-On-Documentation-In-IT-Small-Business-Support.png" alt="image"></a>
+				    </figure>
+<p><span style="font-weight: 400;">If you're working in the IT industry, creating network diagrams is an essential task. Network diagrams help you understand the structure of a network, identify potential issues, and plan for future changes. In this article, we'll provide a comprehensive guide on how to create computer network diagrams. We'll also introduce some of the best diagramming applications available, including </span><a href="https://optimizeddocs.com/blogs/Diagrams/Diagram%20How%20To/How%20To%20Use%20Creately%20To%20Create%20Diagrams.html"><span style="font-weight: 400;">Creately</span></a><span style="font-weight: 400;"> and ConceptDraw, and how our company, </span><a href="https://optimizeddocs.com/keys/remediation-pricing"><span style="font-weight: 400;">Optimized Documentation</span></a><span style="font-weight: 400;">, can help you with your documentation strategies.</span></p>
+<h2><span style="font-weight: 400;">Why Network Diagrams Matter</span></h2>
+<p><span style="font-weight: 400;">Network diagrams are essential in the world of IT, and they serve multiple purposes. They help you visualize the relationships between various devices and components in a network, and identify potential issues that may arise. Additionally, network diagrams enable you to plan for future changes, upgrades, and expansions, making them a critical component of any documentation strategy.</span></p>
+<h2><span style="font-weight: 400;">How to Create a Network Diagram</span></h2>
+<p><span style="font-weight: 400;">Creating a network diagram may seem like a daunting task, but with the right tools and approach, it's a relatively straightforward process. Here's a step-by-step guide to creating a network diagram:</span></p>
+<h3><span style="font-weight: 400;">Step 1: Plan Your Diagram</span></h3>
+<p><span style="font-weight: 400;">Before you start creating a diagram, you need to plan what you want to include in it. Determine the scope of your diagram and identify all the components you want to represent. Consider the following:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The physical components of the network, including servers, switches, routers, firewalls, and cables.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The logical components of the network, including IP addresses, VLANs, subnets, and protocols.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The connections between components, including wired and wireless connections.</span></li>
+</ul>
+<h3><span style="font-weight: 400;">Step 2: Choose Your Diagramming Application</span></h3>
+<p><span style="font-weight: 400;">There are many diagramming applications available, but some are better suited for network diagrams than others. Two of the best options are </span><a href="https://optimizeddocs.com/blogs/Diagrams/Diagram%20How%20To/How%20To%20Use%20Creately%20To%20Create%20Diagrams.html"><span style="font-weight: 400;">Creately</span></a><span style="font-weight: 400;"> and ConceptDraw.</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Creately: Creately is an intuitive diagramming application that's ideal for creating network diagrams. It offers a wide range of templates, shapes, and icons that make it easy to create professional-looking diagrams quickly.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">ConceptDraw: ConceptDraw is another popular diagramming application that's great for network diagrams. It includes a wide range of pre-built templates and symbols, making it easy to create accurate and detailed diagrams.</span></li>
+</ul>
+<h3><span style="font-weight: 400;">Step 3: Add Components to Your Diagram</span></h3>
+<p><span style="font-weight: 400;">Once you've chosen your diagramming application, it's time to start adding components to your diagram. Begin by dragging and dropping shapes and icons onto the canvas, and connect them using lines or arrows. Be sure to label each component and connection to make it easy to understand.</span></p>
+<h3><span style="font-weight: 400;">Step 4: Customize Your Diagram</span></h3>
+<p><span style="font-weight: 400;">With the basic components in place, it's time to customize your diagram. Adjust the size and position of each component to create a visually appealing diagram. Consider using different colors and styles to distinguish between different types of components and connections.</span></p>
+<h3><span style="font-weight: 400;">Step 5: Save and Share Your Diagram</span></h3>
+<p><span style="font-weight: 400;">Once you've completed your diagram, save it in a common format, such as PNG or PDF. Share it with your team or clients, and make any necessary revisions based on feedback.</span></p>
+<h2><span style="font-weight: 400;">How Optimized Documentation Can Help</span></h2>
+<p><span style="font-weight: 400;">At </span><a href="https://optimizeddocs.com/keys/remediation-pricing"><span style="font-weight: 400;">Optimized Documentation</span></a><span style="font-weight: 400;">, we specialize in helping managed service providers with documentation strategies, including standardizing diagrams across all clients. We have extensive experience creating network diagrams and other types of IT documentation, and we can help you streamline your documentation process and ensure that your diagrams are accurate, up-to-date, and easy to understand.</span></p>
+<h2><span style="font-weight: 400;">The Importance of Good Documentation Strategy</span></h2>
+<p><span style="font-weight: 400;">A poor documentation strategy can cause massive amounts of time to be lost when compared to a well-thought-out documentation foundation. It's essential to invest the time and resources into creating accurate and comprehensive documentation to avoid costly mistakes and delays.</span></p>
+<h2><span style="font-weight: 400;">Lansweeper: A Comprehensive IT Asset Management Solution</span></h2>
+<p><span style="font-weight: 400;">If you're looking for a comprehensive IT asset management solution, Lansweeper is a great choice. This platform offers a wide range of features to help you manage and maintain your IT assets, including network discovery, inventory management, and software license tracking. With Lansweeper, you can easily create reports on your assets and automate routine tasks to save time and increase efficiency.</span></p>
+<p><span style="font-weight: 400;">One of the key strengths of Lansweeper is its ability to integrate with other tools and systems. This makes it a great choice for managed service providers who need to work with a wide range of clients and technologies. Additionally, Lansweeper is highly customizable, allowing you to tailor the platform to your specific needs and workflows.</span></p>
+<p><span style="font-weight: 400;">Overall, if you're looking for an IT asset management solution that is both comprehensive and flexible, Lansweeper is definitely worth considering.</span></p>
+<p><span style="font-weight: 400;">Smartdraw is a powerful diagramming tool that can help you create a wide range of diagrams, including network diagrams. With Smartdraw, you can quickly and easily create professional-looking diagrams without needing to have advanced technical skills.</span></p>
+<p><span style="font-weight: 400;">One of the key strengths of Smartdraw is its intuitive interface, which makes it easy to use even for beginners. Additionally, Smartdraw offers a wide range of templates and pre-built symbols to help you get started quickly. This can save you time and effort when creating complex diagrams, such as network diagrams.</span></p>
+<p><span style="font-weight: 400;">Another benefit of Smartdraw is its ability to integrate with other tools and systems. For example, you can easily import data from Excel or other sources to create custom diagrams that reflect real-world data. Additionally, Smartdraw offers a cloud-based version of its platform, which makes it easy to collaborate with others and access your diagrams from anywhere.</span></p>
+<p><span style="font-weight: 400;">Overall, if you're looking for a diagramming tool that is both powerful and user-friendly, Smartdraw is definitely worth considering. Its extensive feature set and ease of use make it a great choice for managed service providers who need to create network diagrams and other types of diagrams on a regular basis.</span></p>
+<h2><span style="font-weight: 400;">Conclusion</span></h2>
+<p><span style="font-weight: 400;">Creating computer network diagrams is an essential part of managed service providers' work. These diagrams help visualize complex network architectures and make it easier to identify and troubleshoot issues. However, creating accurate and standardized diagrams can be time-consuming and challenging, especially for service providers who work with multiple clients.</span></p>
+<p><span style="font-weight: 400;">That's where a tool like Smartdraw or </span><a href="https://optimizeddocs.com/blogs/Diagrams/Diagram%20How%20To/How%20To%20Use%20Creately%20To%20Create%20Diagrams.html"><span style="font-weight: 400;">Creately</span></a><span style="font-weight: 400;"> can come in handy. These diagramming tools offer powerful features that make it easier to create high-quality diagrams quickly and efficiently. By leveraging these tools, managed service providers can streamline their documentation process, standardize their diagrams, and improve their overall efficiency.</span></p>
+<p><span style="font-weight: 400;">At </span><a href="https://optimizeddocs.com/keys/remediation-pricing"><span style="font-weight: 400;">Optimized Documentation</span></a><span style="font-weight: 400;">, we specialize in helping managed service providers develop documentation strategies that work for their unique needs. Whether you need help with network diagrams, security documentation, or other types of documentation, we have the expertise and experience to help.</span></p>
+<p><span style="font-weight: 400;">Finally, it's important to recognize that a poor documentation strategy can lead to significant losses in productivity and profitability. By investing in the right tools and strategies, managed service providers can create a strong documentation foundation that helps them deliver high-quality services to their clients. So, whether you're just getting started with network diagrams or looking to improve your existing documentation practices, now is the time to take action and start optimizing your documentation process.</span></p>
+
+	    </article>
+	    <footer class="footer text-center py-2 theme-bg-dark">
+		   
+	        <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+		   
+	    </footer>
+    
+    </div><!--//main-wrapper-->
+
+    <!-- Javascript -->          
+    <script src="../../../assets/plugins/popper.min.js"></script> 
+    <script src="../../../assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+
+    <!-- Page Specific JS -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="../../../assets/js/blog.js"></script> 
+    
+
+</body>
+</html> 
+

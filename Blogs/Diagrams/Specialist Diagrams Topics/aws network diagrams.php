@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4MFQK6JZKT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4MFQK6JZKT');
+  </script>
+  <!-- Clarity tracking code for https://optimizeddocs.com --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "g13ytvq90o");</script>
+    <title>How To Design AWS Network Diagrams in 2023</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="How To Design AWS Network Diagrams in 2023">
+    <meta name="author" content="Adam Randall at MSP Optimized Documentation">    
+    <link rel="shortcut icon" href="../../../favicon.ico"> 
+    
+    <!-- FontAwesome JS-->
+	<script defer src="../../../assets/fontawesome/js/all.min.js"></script>
+    
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="../../../assets/plugins/highlight/styles/monokai-sublime.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="../../../assets/css/theme-2.css">
+</head> 
+
+<body>
+    
+    <header class="header text-center">	    
+	    <h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="../../../blog.html">MSP Documentation</a></h1>
+        
+	    <nav class="navbar navbar-expand-lg navbar-dark" >
+           
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navigation" class="collapse navbar-collapse flex-column" >
+				<div class="profile-section pt-3 pt-lg-0">
+				    <img class="profile-image mb-3 rounded-circle mx-auto" src="../../../assets/images/profile.webp" alt="image" >			
+					
+					<div class="bio mb-3">Hi, my name is Adam Randall.<br><a href="../../../about.html">Find out more about me</a></div><!--//bio-->
+			        <hr> 
+				</div><!--//profile-section-->
+				
+				<ul class="navbar-nav flex-column text-start">
+					    <a class="nav-link active" href="../../../blog.html"><i class="fas fa-home fa-fw me-2"></i>Blog Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Privacy-Policy.html"><i class="fas fa-bookmark fa-fw me-2"></i>Privacy Policy</a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Consulting/Internal Documentation Management - Biggest MSP Mistake.html"><i class="fas fa-bookmark fa-fw me-2"></i>Latest Post</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Apps/Apps-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Apps</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Backups/Backups-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Backups</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Consulting/Consulting-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Consulting</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Diagrams/Diagrams-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Diagrams</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Hardware/Hardware-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Hardware</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Marketing/Marketing-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Marketing</a>
+					</li>
+										<li class="nav-item">
+					    <a class="nav-link" href="/Blogs/Security/Security-Index-Page-01.html"><i class="fas fa-bookmark fa-fw me-2"></i>Security</a>
+					</li>
+				</ul>
+				
+				<div class="my-2 my-md-3">
+					
+				    <a class="btn btn-primary" href="https://optimizeddocs.com/" target="_blank">Get in Touch</a>
+				    
+				</div>
+			</div>
+		</nav>
+    </header>
+    
+    <div class="main-wrapper">
+	    
+	    <article class="blog-post px-3 py-5 p-md-5">
+		    <div class="container single-col-max-width">
+			    <header class="blog-post-header">
+				    <h2 class="title mb-2">How To Design AWS Network Diagrams in 2023</h3>
+				    <div class="meta mb-3"><span class="date">Published 12 days ago</span><span class="time">5 min read</span>
+			    </header>
+			    
+			    <div class="blog-post-body">
+				    <figure class="blog-banner">
+				        <a href="https://optimizeddocs.com"><img class="img-fluid" src="../../../assets/images/blog/Blog-Link-Images/Diagrams/aws network diagrams.png" alt="image"></a>
+				    </figure>
+<p><span style="font-weight: 400;">As a Managed Service Provider (MSP) specializing in documentation, "</span><a href="https://optimizeddocs.com/keys/remediation-pricing"><span style="font-weight: 400;">Optimized Documentation</span></a><span style="font-weight: 400;">" has helped many clients standardize their diagrams across all clients using Cloudockit and hava.io. In this article, we will provide a comprehensive guide on how to design AWS network diagrams using these tools. We will also highlight the importance of a well-thought-out documentation strategy, and how it can save time and resources for MSPs.</span></p>
+<h2><span style="font-weight: 400;">Introduction</span></h2>
+<p><span style="font-weight: 400;">Designing an AWS network diagram can be a daunting task, especially for MSPs who manage multiple clients with complex infrastructures. However, it is a crucial step in ensuring that the network is secure, resilient, and scalable. AWS offers a range of tools and services that can be used to design and deploy network architectures, but choosing the right one can be challenging.</span></p>
+<h2><span style="font-weight: 400;">The Best Tools for AWS Network Diagrams</span></h2>
+<p><span style="font-weight: 400;">There are several tools available that can be used to design AWS network diagrams. However, two tools that stand out are Cloudockit and hava.io. Both these tools are easy to use, offer a range of features, and can be used to create different types of diagrams, including network diagrams.</span></p>
+<h3><span style="font-weight: 400;">Cloudockit</span></h3>
+<p><span style="font-weight: 400;">Cloudockit is a cloud-based documentation tool that can be used to generate diagrams for AWS, Azure, and Google Cloud. It offers a range of features that can help MSPs standardize their documentation strategy, including the ability to generate network diagrams automatically. Some of the key features of Cloudockit include:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Automated documentation generation</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Customizable templates</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Easy to use interface</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Collaboration features</span></li>
+</ul>
+<p><span style="font-weight: 400;">MSPs can use Cloudockit to generate network diagrams for their clients quickly and easily. The tool also allows them to customize the diagrams to match their client's requirements and branding.</span></p>
+<h3><span style="font-weight: 400;">Hava.io</span></h3>
+<p><span style="font-weight: 400;">Hava.io is another cloud-based diagramming tool that can be used to create AWS network diagrams. It offers a range of features that can help MSPs design and deploy secure and scalable network architectures. Some of the key features of hava.io include:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Automatic diagram generation</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Visual representation of the network</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Easy to use interface</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Collaboration features</span></li>
+</ul>
+<p><span style="font-weight: 400;">MSPs can use hava.io to generate network diagrams for their clients and provide them with a visual representation of their network architecture. The tool also offers collaboration features that allow MSPs to work with their clients and other team members.</span></p>
+<h2><span style="font-weight: 400;">Designing AWS Network Diagrams</span></h2>
+<p><span style="font-weight: 400;">Designing AWS network diagrams can be a complex process, but it can be simplified by following these steps:</span></p>
+<h3><span style="font-weight: 400;">Step 1: Define the Scope</span></h3>
+<p><span style="font-weight: 400;">The first step in designing an AWS network diagram is to define the scope of the network. This includes identifying the resources that will be used, the services that will be deployed, and the security requirements.</span></p>
+<h3><span style="font-weight: 400;">Step 2: Identify the Components</span></h3>
+<p><span style="font-weight: 400;">The next step is to identify the components that will be used in the network. This includes EC2 instances, RDS instances, load balancers, and other resources.</span></p>
+<h3><span style="font-weight: 400;">Step 3: Determine the Connectivity</span></h3>
+<p><span style="font-weight: 400;">The next step is to determine the connectivity between the components. This includes identifying the protocols, ports, and security groups that will be used.</span></p>
+<h3><span style="font-weight: 400;">Step 4: Draw the Diagram</span></h3>
+<p><span style="font-weight: 400;">The final step is to draw the diagram using the chosen tool. MSPs can use Cloudockit or hava.io to create a diagram that accurately represents the network architecture.</span></p>
+<h2><span style="font-weight: 400;">Conclusion</span></h2>
+<p><span style="font-weight: 400;">Designing AWS network diagrams can be a daunting task, but with the right tools and knowledge, it can be a breeze. We've explored two popular managed service provider vendors, Cloudockit and hava.io, and discussed how they can be used to create comprehensive network diagrams.</span></p>
+<p><span style="font-weight: 400;">Furthermore, we've emphasized the importance of having a well thought out documentation strategy, and how it can save valuable time and resources in the long run. As a Managed Service Provider specializing in documentation, </span><a href="https://optimizeddocs.com/keys/remediation-pricing"><span style="font-weight: 400;">Optimized Documentation</span></a><span style="font-weight: 400;"> understands the importance of standardizing diagrams across all clients, and has the expertise and experience to help achieve this.</span></p>
+<p><span style="font-weight: 400;">By using the right tools and strategies, designing AWS network diagrams can be made easier and more efficient. We encourage you to explore the resources and vendors mentioned in this article, and to consider the benefits of a solid documentation strategy.</span></p>
+<p><span style="font-weight: 400;">Thank you for reading, and we hope this article has been helpful in your journey towards creating comprehensive and effective AWS network diagrams.</span></p>
+	    </article>
+	    <footer class="footer text-center py-2 theme-bg-dark">
+		   
+	        <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+		   
+	    </footer>
+    
+    </div><!--//main-wrapper-->
+
+    <!-- Javascript -->          
+    <script src="../../../assets/plugins/popper.min.js"></script> 
+    <script src="../../../assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+
+    <!-- Page Specific JS -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="../../../assets/js/blog.js"></script> 
+    
+
+</body>
+</html> 
+
