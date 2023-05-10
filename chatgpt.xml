@@ -6,278 +6,277 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/chatgpt-index-page-01</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/chatgpt%20msp%20general%20-%20index</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/chatgpt%20msp%20apps%20-%20index</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/overview%20of%20chatgpt%20and%20its%20use%20with%20technical%20documentation%20relating%20to%20managed%20service%20providers</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/writing%20powershell%20scripts%20with%20chatgpt</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/chatgpt%20for%20interpereting%20existing%20logfiles</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/benefits%20of%20using%20chatgpt%20for%20technical%20documentation%20in%20managed%20services</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/chatgpt%20as%20a%20tool%20for%20creating%20technical%20documentation%20for%20customer%20support%20and%20service</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/chatgpt%20as%20a%20tool%20for%20creating%20technical%20documentation%20for%20it%20infrastructure</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/chatgpt%20as%20a%20tool%20for%20creating%20technical%20documentation%20for%20managed%20print%20services</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/chatgpt%20as%20a%20tool%20for%20creating%20technical%20documentation%20for%20telecommunications</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/chatgpt%20as%20a%20tool%20for%20creating%20technical%20documentation%20that%20is%20easy%20to%20maintain%20and%20update</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/chatgpt%20as%20a%20tool%20for%20creating%20technical%20documentation%20that%20supports%20troubleshooting%20and%20problem-solving</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/chatgpt%20as%20a%20tool%20for%20generating%20documentation%20for%20complex%20technical%20systems</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/chatgpt%20as%20a%20tool%20for%20generating%20technical%20documentation%20for%20both%20internal%20and%20external%20use</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/chatgpt%20as%20a%20tool%20for%20generating%20technical%20documentation%20for%20different%20audiences%20(technical%20vs%20non-technical)</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/chatgpt%20as%20a%20tool%20for%20generating%20technical%20documentation%20for%20different%20delivery%20methods</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/chatgpt%20for%20collaboration%20between%20technical%20writers%20and%20subject%20matter%20experts</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/creating%20accessible%20technical%20documentation%20with%20chatgpt</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/creating%20technical%20documentation%20for%20big%20data%20solutions%20with%20chatgpt</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/creating%20technical%20documentation%20for%20cloud-based%20solutions%20with%20chatgpt</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/creating%20technical%20documentation%20for%20complex%20systems%20with%20ease%20using%20chatgpt</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/creating%20technical%20documentation%20for%20disaster%20recovery%20with%20chatgpt</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/creating%20technical%20documentation%20for%20troubleshooting%20with%20chatgpt</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/creating%20technical%20documentation%20for%20virtualization%20with%20chatgpt</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/creating%20user%20manuals%20with%20chatgpt</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/generating%20technical%20documentation%20for%20artificial%20intelligence%20with%20chatgpt</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/generating%20technical%20documentation%20for%20cybersecurity%20with%20chatgpt</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/generating%20technical%20documentation%20for%20hardware%20using%20chatgpt</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/generating%20technical%20documentation%20for%20managed%20storage%20solutions%20with%20chatgpt</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/generating%20technical%20documentation%20for%20various%20industries%20using%20chatgpt</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/how%20to%20integrate%20chatgpt%20into%20your%20existing%20technical%20documentation%20process%20for%20managed%20services</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/how%20to%20measure%20the%20effectiveness%20of%20chatgpt%20in%20creating%20technical%20documentation%20for%20managed%20services</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/how%20to%20use%20chatgpt%20to%20create%20technical%20documentation%20that%20is%20accessible%20to%20people%20with%20disabilities</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/how%20to%20use%20chatgpt%20to%20create%20technical%20documentation%20that%20meets%20compliance%20and%20regulatory%20standards</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/limitations%20of%20chatgpt%20for%20technical%20writing</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/measure%20the%20effectiveness%20of%20chatgpt%20in%20creating%20technical%20documentation%20for%20managed%20services</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/the%20benefits%20of%20using%20chatgpt%20for%20creating%20user%20manuals%20and%20guides%20for%20managed%20services</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/the%20impact%20of%20chatgpt%20on%20the%20quality%20of%20technical%20documentation%20for%20managed%20services</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/the%20impact%20of%20chatgpt%20on%20the%20speed%20and%20efficiency%20of%20technical%20documentation%20creation</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/the%20role%20of%20chatgpt%20in%20improving%20the%20customer%20experience%20through%20better%20technical%20documentation</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/the%20role%20of%20chatgpt%20in%20reducing%20the%20cost%20of%20technical%20documentation%20for%20managed%20services</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/tips%20for%20editing%20and%20reviewing%20technical%20documentation%20generated%20by%20chatgpt</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/training%20chatgpt%20to%20generate%20documentation%20that%20aligns%20with%20your%20company's%20brand%20and%20tone</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/training%20chatgpt%20to%20generate%20documentation%20that%20aligns%20with%20your%20companys%20brand%20and%20tone</loc>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/using%20chatgpt%20to%20create%20documentation%20for%20managed%20services%20in%20multiple%20languages</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/using%20chatgpt%20to%20create%20technical%20documentation%20for%20a%20global%20audience</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/using%20chatgpt%20to%20create%20technical%20documentation%20for%20compliance%20and%20regulations</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/using%20chatgpt%20to%20create%20technical%20documentation%20for%20data%20centers</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/using%20chatgpt%20to%20create%20technical%20documentation%20for%20mobile%20devices</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/using%20chatgpt%20to%20create%20technical%20documentation%20for%20network%20configurations</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/using%20chatgpt%20to%20create%20technical%20documentation%20for%20non-technical%20audiences</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/using%20chatgpt%20to%20create%20technical%20documentation%20for%20project%20management</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/using%20chatgpt%20to%20create%20technical%20documentation%20that%20aligns%20with%20brand%20voice%20and%20tone</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://optimizeddocs.com/blogs/chatgpt/top%20level%20pages/using%20chatgpt%20to%20improve%20the%20accuracy%20and%20consistency%20of%20your%20technical%20documentation</loc>
-  <lastmod>2023-05-05T17:51:39+00:00</lastmod>
-  <priority>0.41</priority>
+  <lastmod>2023-05-10T14:06:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
-
-
 
 
 </urlset>
