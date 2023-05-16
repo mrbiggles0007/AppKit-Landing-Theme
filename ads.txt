@@ -1,3 +1,4 @@
+google.com, pub-6410001662072014, DIRECT, f08c47fec0942fa0
 google.com, pub-2305359031197990, DIRECT, f08c47fec0942fa0
 google.com, pub-6966735019331824, DIRECT, f08c47fec0942fa0
 smartadserver.com, 1328, RESELLER
