@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "optimizeddocs.com",
+  "Id": "fdcbfe1a-2a8e-448a-b0a4-109dbca100fd"
+}
