@@ -81,68 +81,222 @@
 <p><span style="font-weight: 400;">TrueNAS requires at least </span><a href="https://optimizeddocs.com/blogs/hardware/top level pages/computer components"><span style="font-weight: 400;">8GB of RAM</span></a><span style="font-weight: 400;">, a 64-bit CPU, and a minimum of two </span><a href="https://optimizeddocs.com/blogs/backups/backup hardware/ssd vs hdd in nas drives"><span style="font-weight: 400;">NAS compatible hard drives</span></a><span style="font-weight: 400;">. However, for optimal performance it recommends at least 16GB of RAM, an Intel Xeon processor, and a minimum of six hard drives.</span></p>
 <p><span style="font-weight: 400;">On the other hand, Nexenta Community Edition has </span><strong>higher hardware requirements</strong><span style="font-weight: 400;">, with a minimum of </span><a href="https://optimizeddocs.com/blogs/hardware/computer components index"><span style="font-weight: 400;">16GB of RAM</span></a><span style="font-weight: 400;">, a 64-bit CPU, and a minimum of three hard drives.&nbsp;</span></p>
 <p><span style="font-weight: 400;">For optimal performance, Nexenta Community Edition recommends at least 32GB of RAM, an Intel Xeon processor, and a minimum of six hard drives.</span></p>
-<p>&nbsp;</p>
-<table>
-<tbody>
-<tr>
-<td>
-<p><strong>TrueNAS - Min</strong></p>
-</td>
-<td>
-<p><strong>Nexenta - Min</strong></p>
-</td>
-<td>
-<p><strong>TrueNAS - Rec</strong></p>
-</td>
-<td>
-<p><strong>Nexenta - Rec</strong></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">8GB Ram</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">16GB Ram</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">16GB Ram</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">32GB Ram</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">2 Hard Disks</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">3 Hard Disks</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">6 Hard Disks</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">6 Hard Disks</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">64 Bit CPU</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">64 Bit CPU</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Xeon CPU</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Xeon CPU</span></p>
-</td>
-</tr>
-</tbody>
+<h2><span style="font-weight: 400;">Supported Storage Protocols</span></h2>
+<table class="rounded rounded-3 overflow-hidden table table-striped table-bordered table-primary border-light table-sm">
+  <thead>
+    <tr>
+      <th scope="col">Protocol</th>
+      <th scope="col">TrueNAS</th>
+      <th scope="col">Nexenta</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NFS</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>SMB/CIFS</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>iSCSI</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>Fibre Channel</td>
+      <td>NO</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>SCSI</td>
+      <td>NO</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>SAS</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>S3</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>AFP</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>FTPS</td>
+      <td>YES</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>SFTP</td>
+      <td>YES</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>WebDAV</td>
+      <td>YES</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>AoE</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>NFSv4</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>NBD</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+      <td>FCoE</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>iSER</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>IPoFC</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>NVMe-oF</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>NVMe over TCP</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>NVMe over RDMA</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+  </tbody>
 </table>
-<p>&nbsp;</p>
+<h2><span style="font-weight: 400;">File System Compatibility</span></h2>
+<table class="rounded rounded-3 overflow-hidden table table-striped table-bordered table-primary border-light table-sm">
+  <thead>
+    <tr>
+      <th scope="col">File System</th>
+      <th scope="col">TrueNAS</th>
+      <th scope="col">Nexenta</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NTFS</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>FAT</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>ext4</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>NFS</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>CIFS</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>HFS+</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>APFS</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>ZFS</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>exFAT</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>XFS</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+  </tbody>
+</table>
+<h2><span style="font-weight: 400;">Hardware Specifications</span></h2>
+<table class="rounded rounded-3 overflow-hidden table table-striped table-bordered table-primary border-light table-sm">
+  <thead>
+    <tr>
+      <th scope="col">TrueNAS - Minimum</th>
+      <th scope="col">Nexenta - Minimum</th>
+      <th scope="col">TrueNAS - Recommended</th>
+      <th scope="col">Nexenta - Recommended</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>8GB Ram</td>
+      <td>8GB Ram</td>
+      <td>16GB Ram</td>
+      <td>16GB Ram</td>
+    </tr>
+    <tr>
+      <td>1 Hard Disks</td>
+      <td>1 Hard Disk</td>
+      <td>5 Hard Disks</td>
+      <td>5 Hard Disks</td>
+    </tr>
+    <tr>
+      <td>64 Bit CPU</td>
+      <td>64 Bit CPU</td>
+      <td>Xeon/EPYC CPU</td>
+      <td>Xeon/EPYC CPU</td>
+    </tr>
+    <tr>
+      <td>16GB Flash Drive</td>
+      <td>8GB Flash Drive</td>
+      <td>64GB Flash Drive</td>
+      <td>64GB Flash Drive</td>
+    </tr>
+    <tr>
+      <td>1x Gigabit Ethernet</td>
+      <td>1x Ethernet</td>
+      <td>10GbE or Higher</td>
+      <td>10GbE or Higher</td>
+    </tr>
+  </tbody>
+</table>
 <h2><span style="font-weight: 400;">Supported Storage Protocols and File Systems</span></h2>
 <p><span style="font-weight: 400;">TrueNAS and Nexenta Community Edition support slightly different protocols and file systems.&nbsp;</span></p>
 <p><span style="font-weight: 400;">TrueNAS supports NFS, SMB/CIFS, AFP, iSCSI, FC, and S3 protocols. Additionally, it also supports the ZFS file system, which provides advanced data management features such as snapshots, clones, and data compression.</span></p>
