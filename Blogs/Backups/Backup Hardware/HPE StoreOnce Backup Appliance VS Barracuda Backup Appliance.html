@@ -67,6 +67,211 @@
 <p><span style="font-weight: 400;">Having a backup solution that is reliable, scalable, and cost-effective is one of the more important tasks a service provider needs nailed down. Reliable backup hardware makes that job a lot easier.</span></p>
 <p><span style="font-weight: 400;">We will discuss how I.T management companies can utilize these backup appliances to provide backup and disaster recovery services for their clients, as well as the benefits of utilizing documentation services for managed service providers.</span></p>
 <p><span style="font-weight: 400;">Overall, this article aims to provide an in-depth understanding of the HPE StoreOnce and Barracuda Backup appliances, their features and advantages, and how they can be used to ensure data protection for businesses in North America and beyond.</span></p>
+<h2><span style="font-weight: 400;">Supported Storage Protocols</span></h2>
+<table class="rounded rounded-3 overflow-hidden table table-striped table-bordered table-primary border-light table-sm">
+  <thead>
+    <tr>
+      <th scope="col">Protocol</th>
+      <th scope="col">HPE StoreOnce</th>
+      <th scope="col">Barracuda Appliance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NFS</td>
+      <td>YES</td>
+      <td>Unknown</td>
+    </tr>
+    <tr>
+      <td>SMB/CIFS</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>iSCSI</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>Fibre Channel</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>SCSI</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>SAS</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>S3</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>AFP</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>FTPS</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>SFTP</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>WebDAV</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>AoE</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>NFSv4</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>NBD</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+      <td>FCoE</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>iSER</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>IPoFC</td>
+      <td>YES</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>NVMe-oF</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>NVMe over TCP</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>NVMe over RDMA</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+  </tbody>
+</table>
+<h2><span style="font-weight: 400;">File System Compatibility</span></h2>
+<table class="rounded rounded-3 overflow-hidden table table-striped table-bordered table-primary border-light table-sm">
+  <thead>
+    <tr>
+      <th scope="col">File System</th>
+      <th scope="col">HPE StoreOnce</th>
+      <th scope="col">Barracuda Appliance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NTFS</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>FAT</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>ext4</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>NFS</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>CIFS</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>HFS+</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>APFS</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>ZFS</td>
+      <td>YES</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>exFAT</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>XFS</td>
+      <td>YES</td>
+      <td>NO</td>
+    </tr>
+  </tbody>
+</table>
+<h2><span style="font-weight: 400;">Device Features</span></h2>
+<table class="rounded rounded-3 overflow-hidden table table-striped table-bordered table-primary border-light table-sm">
+  <thead>
+    <tr>
+      <th scope="col">Device Features</th>
+      <th scope="col">HPE StoreOnce</th>
+      <th scope="col">Barracuda Appliance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Scale-up architecture</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>Scale-out architecture</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>High Availability</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>Active-passive failover</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+  </tbody>
+</table>
 <h2><span style="font-weight: 400;">HPE StoreOnce Backup Appliance</span></h2>
 <p><span style="font-weight: 400;">The HPE StoreOnce Backup Appliance is a </span><a href="https://optimizeddocs.com/blogs/backups/top level pages/backup strategies overview"><span style="font-weight: 400;">comprehensive backup solution</span></a><span style="font-weight: 400;"> that provides data protection for businesses of all sizes. It is designed to simplify backup and </span><a href="https://optimizeddocs.com/blogs/backups/clients/best effort and msp liability"><span style="font-weight: 400;">recovery processes</span></a><span style="font-weight: 400;">, reduce costs, and minimize risks associated with </span><a href="https://optimizeddocs.com/blogs/backups/clients/communicating backup retention policy"><span style="font-weight: 400;">data loss</span></a><span style="font-weight: 400;">.</span></p>
 <h2><span style="font-weight: 400;">Features of HPE StoreOnce</span></h2>

@@ -64,6 +64,211 @@
 <p><span style="font-weight: 400;">As a secondary goal of this article, I will also discuss how documentation can help IT consulting services manage and maintain backup and data recovery solutions such as the Synology or Western Digital options in the most efficient and effective manner.</span></p>
 <h2><span style="font-weight: 400;">Synology Diskstation and WD My Cloud - Comparison</span></h2>
 <p><span style="font-weight: 400;">As companies look for efficient and reliable </span><a href="https://optimizeddocs.com/blogs/backups/backup-strategies-index"><span style="font-weight: 400;">data storage solutions</span></a><span style="font-weight: 400;"> for their clients, two of the most popular options in the market are Synology Diskstation and WD My Cloud. In this section, we will compare the two solutions based on their key features, design, and performance.</span></p>
+<h2><span style="font-weight: 400;">Supported Storage Protocols</span></h2>
+<table class="rounded rounded-3 overflow-hidden table table-striped table-bordered table-primary border-light table-sm">
+  <thead>
+    <tr>
+      <th scope="col">Protocol</th>
+      <th scope="col">Synology Diskstation</th>
+      <th scope="col">WD MYCloud Home</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NFS</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>SMB/CIFS</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>iSCSI</td>
+      <td>YES</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>Fibre Channel</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>SCSI</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>SAS</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>S3</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>AFP</td>
+      <td>YES</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>FTPS</td>
+      <td>YES</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>SFTP</td>
+      <td>YES</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>WebDAV</td>
+      <td>YES</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>AoE</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>NFSv4</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>NBD</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+      <td>FCoE</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>iSER</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>IPoFC</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>NVMe-oF</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>NVMe over TCP</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>NVMe over RDMA</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+  </tbody>
+</table>
+<h2><span style="font-weight: 400;">File System Compatibility</span></h2>
+<table class="rounded rounded-3 overflow-hidden table table-striped table-bordered table-primary border-light table-sm">
+  <thead>
+    <tr>
+      <th scope="col">File System</th>
+      <th scope="col">Synology Diskstation</th>
+      <th scope="col">WD MYCloud Home</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NTFS</td>
+      <td>NO</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>FAT</td>
+      <td>NO</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>ext4</td>
+      <td>YES</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>NFS</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>CIFS</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>HFS+</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>APFS</td>
+      <td>NO</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>ZFS</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>exFAT</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>XFS</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+  </tbody>
+</table>
+<h2><span style="font-weight: 400;">Device Features</span></h2>
+<table class="rounded rounded-3 overflow-hidden table table-striped table-bordered table-primary border-light table-sm">
+  <thead>
+    <tr>
+      <th scope="col">Device Features</th>
+      <th scope="col">Synology Diskstation</th>
+      <th scope="col">WD MYCloud Home</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Scale-up architecture</td>
+      <td>YES</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>Scale-out architecture</td>
+      <td>Model Dependant</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>High Availability</td>
+      <td>Model Dependant</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>Active-passive failover</td>
+      <td>YES</td>
+      <td>NO</td>
+    </tr>
+  </tbody>
+</table>
 <h3><span style="font-weight: 400;">Synology Diskstation - Overview</span></h3>
 <p><span style="font-weight: 400;">The Synology Diskstation and WD My Cloud offer a range of features that cater to the needs of technology management companies and their clients.</span></p>
 <p><span style="font-weight: 400;">The Synology Diskstation provides a comprehensive suite of features, including </span><a href="https://optimizeddocs.com/blogs/hardware/top level pages/servers"><span style="font-weight: 400;">file sharing</span></a><span style="font-weight: 400;">, data backup, and multimedia streaming.&nbsp;</span></p>
