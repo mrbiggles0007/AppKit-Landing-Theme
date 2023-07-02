@@ -13,4 +13,8 @@ ul.nav li.active a {
 
 a {
     color: #777;
+	    text-decoration: none !important;
+}
+a:hover {
+    color: #F61
 }
