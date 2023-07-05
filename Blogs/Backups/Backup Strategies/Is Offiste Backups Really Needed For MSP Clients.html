@@ -71,6 +71,53 @@
 <p><span style="font-weight: 400;">We need to outline when a MSP backup is not considered an off site backup as there are gray areas we need to address so that we are all on the same page as far as definition. The table below will outline the framework for this article.</span></p>
 <p><span style="font-weight: 400;">We will consider any backup with the primary connection being a self installed </span><a href="https://optimizeddocs.com/blogs/hardware/top level pages/cables &amp; adapters"><span style="font-weight: 400;">RJ-45 cable</span></a><span style="font-weight: 400;"> of less than 300 feet to be a </span><a href="https://optimizeddocs.com/blogs/backups/backup hardware/build your own nas with truenas"><span style="font-weight: 400;">local based backup solution</span></a><span style="font-weight: 400;">.</span></p>
 <p><span style="font-weight: 400;">If the backup solution resides within the same building as the data you are backing up regardless as to the connection type then we will consider it an </span><a href="https://optimizeddocs.com/blogs/backups/backup hardware/asustor drivestor 4 vs  asustor drivestor 4 pro"><span style="font-weight: 400;">onsite backup solution</span></a><span style="font-weight: 400;"> and not a remote backup solution.</span></p>
+<h2><span style="font-weight: 400;">Local Or Cloud Backup Types - Definition</span></h2>
+<table class="rounded rounded-3 overflow-hidden table table-striped table-bordered table-primary border-light table-sm">
+  <thead>
+    <tr>
+      <th scope="col">Backup Location</th>
+      <th scope="col">Backup Type</th>
+      <th scope="col">Comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Same Building</td>
+      <td>Local</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>300 Foot RJ-45</td>
+      <td>Local</td>
+      <td>Primary Connection</td>
+    </tr>
+    <tr>
+      <td>Offsite USB Rotation</td>
+      <td>Local</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Offsite Tape Rotation</td>
+      <td>Local</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Wireless - Seperated Building</td>
+      <td>Offsite</td>
+      <td>Needs to be different building</td>
+    </tr>
+    <tr>
+      <td>Inpenetrable Safe</td>
+      <td>Local</td>
+      <td>Offisite if different building</td>
+    </tr>
+    <tr>
+      <td>Backup Appliance</td>
+      <td>Local</td>
+      <td>Unless offsite is a feature</td>
+    </tr>
+  </tbody>
+</table>
 <h3><span style="font-weight: 400;">Do You Need An Offsite Backup?</span></h3>
 <p><span style="font-weight: 400;">Technically there is no requirement in many businesses to have an offsite backup solution although more mature market segments such as health and finance have regulation in place to ensure it occurs.</span></p>
 <p><span style="font-weight: 400;">In businesses without regulation, you could offer your clients a backup solution based on taking removable drives or tapes off site and you would only be considered mildly irresponsible because regardless of what I or anyone else thinks, it offers a solution that satisfies the clients risk profile.</span></p>
