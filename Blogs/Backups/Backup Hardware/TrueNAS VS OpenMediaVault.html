@@ -40,405 +40,313 @@
 		    <div class="container single-col-max-width">
 			    <header class="blog-post-header">
 				    <h1 class="title mb-2">TrueNAS VS OpenMediaVault 2023</h1>
-				    <div class="meta mb-3"><span class="date">Published 45 days ago</span><span class="time">5 min read</span><span class="date"><a class="text-link" href="/blogs/backups/clients/managed service provider backups - client expectations">Client Expectations for MSP Backup Services...</a></span>
+				    <div class="meta mb-3"><span class="date">Published 45 days ago</span><span class="time">5 min read</span><span class="date"><a class="text-link" href="/blogs/backups/clients/managed service provider backups - client expectations">Client Expectations for MSP Backup Services...</a>
 			    </header>
 			    
-			    <div class="blog-post-body">
+			    <div class="text-muted">
 				    <figure class="blog-banner">
 				        <a href="/blogs/backups/clients/managed service provider backups - client expectations"><img class="img-fluid" src="../../../assets/images/blog/Blog-Images/Backups/TrueNAS V OpenMediaVault.webp" alt="Managed Service Provider Backup Deliverables"></a>
 				    </figure>
 <div id="cns-ctx-534-1" data-style="widget-style-1" data-headline="Related Topics (Ads)" data-keyword="businessservices" data-cntxurl="https://ad-bid.com/DCVNDot9F0lzdRXslpTzJWNR8yTTgutDziJ5RyF20mI/" rel="sponsored" data-caflag="470466c173b03ce90134900f3981eb2eef81f2ce" data-subid="9640_64968_1"></div>
-<p><a href="https://optimizeddocs.com/blogs/backups/backup hardware/truenas vs openfiler community edition"><span style="font-weight: 400;">TrueNAS OS</span></a><span style="font-weight: 400;"> and </span><a href="https://www.openmediavault.org/"><span style="font-weight: 400;">Openmediavault</span></a><span style="font-weight: 400;"> OS will be evaluated in this article,, we will explore the quirks and features of both with a verdict of the winner at the end..</span></p>
-<p><span style="font-weight: 400;">Storage is a very important aspect of any IT infrastructure, and choosing the </span><a href="https://optimizeddocs.com/blogs/backups/clients/testing client backups &amp; restores"><span style="font-weight: 400;">right storage platform</span></a><span style="font-weight: 400;"> can make a significant difference in terms of performance, ability to scale, and data management.&nbsp;</span></p>
-<p><span style="font-weight: 400;">TrueNAS and </span><a href="https://www.openmediavault.org/download.html"><span style="font-weight: 400;">Openmediavault</span></a><span style="font-weight: 400;"> are two popular </span><a href="https://optimizeddocs.com/blogs/backups/backup-strategies-index"><span style="font-weight: 400;">storage platforms</span></a><span style="font-weight: 400;"> that have gained widespread adoption in recent years.</span></p>
+<p><a href="https://optimizeddocs.com/blogs/backups/backup hardware/truenas vs openfiler community edition">TrueNAS OS</a> and <a href="https://www.openmediavault.org/">Openmediavault</a> OS will be evaluated in this article,, we will explore the quirks and features of both with a verdict of the winner at the end..</p>
+<p>Storage is a very important aspect of any IT infrastructure, and choosing the <a href="https://optimizeddocs.com/blogs/backups/clients/testing client backups &amp; restores">right storage platform</a> can make a significant difference in terms of performance, ability to scale, and data management.</p>
+<p>TrueNAS and <a href="https://www.openmediavault.org/download.html">Openmediavault</a> are two popular <a href="https://optimizeddocs.com/blogs/backups/backup-strategies-index">storage platforms</a> that have gained widespread adoption in recent years.</p>
 <p><strong><em>While you are here, take a look at some of our other </em></strong><a href="https://optimizeddocs.com/blogs/backups/backups-index-page-01"><strong><em>backup content materials</em></strong></a><strong><em> below that may interest you:</em></strong></p>
 <ul>
-<li style="font-weight: 400;"><a href="https://optimizeddocs.com/blogs/backups/backup hardware/do tape based backups still have a place today"><span style="font-weight: 400;">Do Tape-Based Backups Still Have a Place Today</span></a></li>
-<li style="font-weight: 400;"><a href="https://optimizeddocs.com/blogs/backups/backup hardware/enterprise drives purchased from amazon - warning"><span style="font-weight: 400;">Enterprise Drives Purchased from Amazon - Warning</span></a></li>
-<li style="font-weight: 400;"><a href="https://optimizeddocs.com/blogs/backups/backup hardware/freenas vs truenas"><span style="font-weight: 400;">FreeNAS vs TrueNAS</span></a></li>
-<li style="font-weight: 400;"><a href="https://optimizeddocs.com/blogs/backups/backup hardware/hpe greenlake vs dell apex"><span style="font-weight: 400;">HPE GreenLake vs Dell Apex</span></a></li>
-<li style="font-weight: 400;"><a href="https://optimizeddocs.com/blogs/backups/backup hardware/hpe storeonce backup appliance vs barracuda backup appliance"><span style="font-weight: 400;">HPE StoreOnce Backup Appliance vs Barracuda Backup Appliance</span></a></li>
-<li style="font-weight: 400;"><a href="https://optimizeddocs.com/blogs/backups/backup hardware/is asustor better than synology"><span style="font-weight: 400;">Is Asustor Better Than Synology</span></a></li>
-<li style="font-weight: 400;"><a href="https://optimizeddocs.com/blogs/backups/backup hardware/is cloud storage a viable alternative to nas storage"><span style="font-weight: 400;">Is Cloud Storage a Viable Alternative to NAS Storage</span></a></li>
+<li><a href="https://optimizeddocs.com/blogs/backups/backup hardware/do tape based backups still have a place today">Do Tape-Based Backups Still Have a Place Today</a></li>
+<li><a href="https://optimizeddocs.com/blogs/backups/backup hardware/enterprise drives purchased from amazon - warning">Enterprise Drives Purchased from Amazon - Warning</a></li>
+<li><a href="https://optimizeddocs.com/blogs/backups/backup hardware/freenas vs truenas">FreeNAS vs TrueNAS</a></li>
+<li><a href="https://optimizeddocs.com/blogs/backups/backup hardware/hpe greenlake vs dell apex">HPE GreenLake vs Dell Apex</a></li>
+<li><a href="https://optimizeddocs.com/blogs/backups/backup hardware/hpe storeonce backup appliance vs barracuda backup appliance">HPE StoreOnce Backup Appliance vs Barracuda Backup Appliance</a></li>
+<li><a href="https://optimizeddocs.com/blogs/backups/backup hardware/is asustor better than synology">Is Asustor Better Than Synology</a></li>
+<li><a href="https://optimizeddocs.com/blogs/backups/backup hardware/is cloud storage a viable alternative to nas storage">Is Cloud Storage a Viable Alternative to NAS Storage</a></li>
 </ul>
-<p><span style="font-weight: 400;">We will provide an overview of TrueNAS and Openmediavault, highlighting their quirks and features.&nbsp;</span></p>
-<p><span style="font-weight: 400;">We will also provide opinions based on real world experience using these platforms and their implications for IT infrastructure solution providers.</span></p>
-<p><span style="font-weight: 400;">Selecting the right </span><a href="https://optimizeddocs.com/blogs/backups/top level pages/backup strategies overview"><span style="font-weight: 400;">storage platform</span></a><span style="font-weight: 400;"> that meets the unique needs of each business is one of the more important tasks of a service provider. Whether it is for small businesses or </span><a href="https://optimizeddocs.com/blogs/backups/backup hardware/enterprise drives purchased from amazon - warning"><span style="font-weight: 400;">enterprise-level organizations</span></a><span style="font-weight: 400;">, the right storage platform can help improve efficiency, productivity, and ultimately, profitability.</span></p>
-<p><span style="font-weight: 400;">This article will serve as a guide for I.T organizations who are considering either TrueNAS or Openmediavault to control their storage devices. By the end of this article, readers will have a comprehensive understanding of the strengths and weaknesses of each platform and be better equipped to make an informed decision.</span></p>
-<p><span style="font-weight: 400;">As a secondary goal of the main discussion here, I will also discuss how I.T documentation can help consulting services manage and maintain backup and data recovery solutions effectively as it specifically relates to this topic.</span></p>
-<p><span style="font-weight: 400;">We can help you respond faster to your </span><a href="https://optimizeddocs.com/blogs/consulting/msp clients/msp - dealing with difficult clients"><span style="font-weight: 400;">clients requirements</span></a><span style="font-weight: 400;">, allow </span><a href="https://optimizeddocs.com/blogs/consulting/msp employees/is your msp toxic for employees"><span style="font-weight: 400;">less experienced staff</span></a><span style="font-weight: 400;"> handle tasks they otherwise could not and ultimately improve your profit margins while getting ahead of your competition.</span></p>
-<p><a href="https://optimizeddocs.com/"><span style="font-weight: 400;">Technician records</span></a><span style="font-weight: 400;"> are an essential aspect of the IT industry whether it be storage solutions discussed here or the steps involved on how you </span><a href="https://optimizeddocs.com/blogs/backups/clients/legal hold and retention policies"><span style="font-weight: 400;">retain important client data</span></a><span style="font-weight: 400;"> and when it should be deleted based on criteria such as their wishes along with regulations governing this activity.&nbsp;</span></p>
-<p><span style="font-weight: 400;">It enables IT consulting advisors to manage and maintain the IT infrastructure of their clients effectively.&nbsp;</span></p>
-<p><span style="font-weight: 400;">&nbsp;</span></p>
-<p><span style="font-weight: 400;">We have years of experience in working with service providers to </span><a href="https://optimizeddocs.com/documentation-remediation"><span style="font-weight: 400;">document their procedures</span></a><span style="font-weight: 400;">&nbsp; and as mentioned, there is no area more important to a service provider than how their clients' backup and disaster recovery systems are documented.</span></p>
-<h2><span style="font-weight: 400;">TrueNAS versus Openmediavault</span></h2>
-<p><span style="font-weight: 400;">As IT infrastructure solution providers consider different storage solutions for their clients, it's important to compare the market leaders in </span><a href="https://optimizeddocs.com/blogs/apps/top level pages/msp open source apps overview"><span style="font-weight: 400;">open sourced storage</span></a><span style="font-weight: 400;"> operating systems - TrueNAS and Openmediavault.</span></p>
-<p><span style="font-weight: 400;">Chances are you have almost made a decision on either of these two backup </span><a href="https://optimizeddocs.com/blogs/apps/top level pages/operating systems overview"><span style="font-weight: 400;">Operating systems solutions</span></a><span style="font-weight: 400;"> but are just not sure which one is the right fit for your situation. This article will help alleviate that concern.</span></p>
-<h2><span style="font-weight: 400;">Storage Operating System - Hardware Requirements</span></h2>
-<p><span style="font-weight: 400;">TrueNAS and Openmediavault have different hardware requirements that I.T organizations should consider when selecting a storage solution for their clients.&nbsp;</span></p>
-<p><span style="font-weight: 400;">TrueNAS requires at least </span><a href="https://optimizeddocs.com/blogs/hardware/top level pages/computer components"><span style="font-weight: 400;">8GB of RAM</span></a><span style="font-weight: 400;">, a 64-bit CPU, and a minimum of two </span><a href="https://optimizeddocs.com/blogs/backups/backup hardware/ssd vs hdd in nas drives"><span style="font-weight: 400;">NAS compatible hard drives</span></a><span style="font-weight: 400;">. However, for optimal performance it recommends at least 16GB of RAM, an Intel Xeon processor, and a minimum of six hard drives.</span></p>
-<p><span style="font-weight: 400;">On the other hand, Openmediavault has lower hardware requirements, with a minimum of </span><a href="https://optimizeddocs.com/blogs/hardware/computer components index"><span style="font-weight: 400;">2GB of RAM</span></a><span style="font-weight: 400;">, either a 32 or 64-bit CPU, and a minimum of one hard drive.&nbsp;</span></p>
-<p><span style="font-weight: 400;">Openmediavault recommends at least 4GB of RAM, 1GB NIC, 32 or 64-bit CPU&nbsp; and a minimum of 1 SSD. While the recommended specs are quite low, it should be noted that if you do run resource heavy tasks then Openmediavault is capable as long as the specifications are increased appropriately. Specifications can go a lot higher than the recommended specs.</span></p>
-<h2><span style="font-weight: 400;">Supported Storage Protocols</span></h2>
-<table class="rounded rounded-3 overflow-hidden table table-striped table-bordered table-primary border-light table-sm">
-  <thead>
-    <tr>
-      <th scope="col">Protocol</th>
-      <th scope="col">TrueNAS</th>
-      <th scope="col">OpenMediaVault</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>NFS</td>
-      <td>YES</td>
-      <td>YES</td>
-    </tr>
-    <tr>
-      <td>SMB/CIFS</td>
-      <td>YES</td>
-      <td>YES</td>
-    </tr>
-    <tr>
-      <td>iSCSI</td>
-      <td>YES</td>
-      <td>YES</td>
-    </tr>
-    <tr>
-      <td>Fibre Channel</td>
-      <td>NO</td>
-      <td>NO</td>
-    </tr>
-    <tr>
-      <td>SCSI</td>
-      <td>NO</td>
-      <td>NO</td>
-    </tr>
-    <tr>
-      <td>SAS</td>
-      <td>NO</td>
-      <td>NO</td>
-    </tr>
-    <tr>
-      <td>S3</td>
-      <td>NO</td>
-      <td>NO</td>
-    </tr>
-    <tr>
-      <td>AFP</td>
-      <td>NO</td>
-      <td>NO</td>
-    </tr>
-    <tr>
-      <td>FTPS</td>
-      <td>YES</td>
-      <td>YES</td>
-    </tr>
-    <tr>
-      <td>SFTP</td>
-      <td>YES</td>
-      <td>YES</td>
-    </tr>
-    <tr>
-      <td>WebDAV</td>
-      <td>YES</td>
-      <td>YES</td>
-    </tr>
-    <tr>
-      <td>AoE</td>
-      <td>NO</td>
-      <td>NO</td>
-    </tr>
-    <tr>
-      <td>NFSv4</td>
-      <td>YES</td>
-      <td>YES</td>
-    </tr>
-    <tr>
-      <td>NBD</td>
-      <td>NO</td>
-      <td>NO</td>
-    </tr>
-      <td>FCoE</td>
-      <td>NO</td>
-      <td>NO</td>
-    </tr>
-    <tr>
-      <td>iSER</td>
-      <td>NO</td>
-      <td>NO</td>
-    </tr>
-    <tr>
-      <td>IPoFC</td>
-      <td>NO</td>
-      <td>NO</td>
-    </tr>
-    <tr>
-      <td>NVMe-oF</td>
-      <td>NO</td>
-      <td>NO</td>
-    </tr>
-    <tr>
-      <td>NVMe over TCP</td>
-      <td>NO</td>
-      <td>NO</td>
-    </tr>
-    <tr>
-      <td>NVMe over RDMA</td>
-      <td>NO</td>
-      <td>NO</td>
-    </tr>
-  </tbody>
+<p>We will provide an overview of TrueNAS and Openmediavault, highlighting their quirks and features.</p>
+<p>We will also provide opinions based on real world experience using these platforms and their implications for IT infrastructure solution providers.</p>
+<p>Selecting the right <a href="https://optimizeddocs.com/blogs/backups/top level pages/backup strategies overview">storage platform</a> that meets the unique needs of each business is one of the more important tasks of a service provider. Whether it is for small businesses or <a href="https://optimizeddocs.com/blogs/backups/backup hardware/enterprise drives purchased from amazon - warning">enterprise-level organizations</a>, the right storage platform can help improve efficiency, productivity, and ultimately, profitability.</p>
+<p>This article will serve as a guide for I.T organizations who are considering either TrueNAS or Openmediavault to control their storage devices. By the end of this article, readers will have a comprehensive understanding of the strengths and weaknesses of each platform and be better equipped to make an informed decision.</p>
+<p>As a secondary goal of the main discussion here, I will also discuss how I.T documentation can help consulting services manage and maintain backup and data recovery solutions effectively as it specifically relates to this topic.</p>
+<p>We can help you respond faster to your <a href="https://optimizeddocs.com/blogs/consulting/msp clients/msp - dealing with difficult clients">clients requirements</a>, allow <a href="https://optimizeddocs.com/blogs/consulting/msp employees/is your msp toxic for employees">less experienced staff</a> handle tasks they otherwise could not and ultimately improve your profit margins while getting ahead of your competition.</p>
+<p><a href="https://optimizeddocs.com/">Technician records</a> are an essential aspect of the IT industry whether it be storage solutions discussed here or the steps involved on how you <a href="https://optimizeddocs.com/blogs/backups/clients/legal hold and retention policies">retain important client data</a> and when it should be deleted based on criteria such as their wishes along with regulations governing this activity.</p>
+<p>It enables IT consulting advisors to manage and maintain the IT infrastructure of their clients effectively.</p>
+
+<p>We have years of experience in working with service providers to <a href="https://optimizeddocs.com/documentation-remediation">document their procedures</a> and as mentioned, there is no area more important to a service provider than how their clients' backup and disaster recovery systems are documented.</p>
+<h2 class="display-6">TrueNAS versus Openmediavault</h2>
+<p>As IT infrastructure solution providers consider different storage solutions for their clients, it's important to compare the market leaders in <a href="https://optimizeddocs.com/blogs/apps/top level pages/msp open source apps overview">open sourced storage</a> operating systems - TrueNAS and Openmediavault.</p>
+<p>Chances are you have almost made a decision on either of these two backup <a href="https://optimizeddocs.com/blogs/apps/top level pages/operating systems overview">Operating systems solutions</a> but are just not sure which one is the right fit for your situation. This article will help alleviate that concern.</p>
+<h2 class="display-6">Storage Operating System - Hardware Requirements</h2>
+<p>TrueNAS and Openmediavault have different hardware requirements that I.T organizations should consider when selecting a storage solution for their clients.</p>
+<p>TrueNAS requires at least <a href="https://optimizeddocs.com/blogs/hardware/top level pages/computer components">8GB of RAM</a>, a 64-bit CPU, and a minimum of two <a href="https://optimizeddocs.com/blogs/backups/backup hardware/ssd vs hdd in nas drives">NAS compatible hard drives</a>. However, for optimal performance it recommends at least 16GB of RAM, an Intel Xeon processor, and a minimum of six hard drives.</p>
+<p>On the other hand, Openmediavault has lower hardware requirements, with a minimum of <a href="https://optimizeddocs.com/blogs/hardware/computer components index">2GB of RAM</a>, either a 32 or 64-bit CPU, and a minimum of one hard drive.</p>
+<p>Openmediavault recommends at least 4GB of RAM, 1GB NIC, 32 or 64-bit CPU and a minimum of 1 SSD. While the recommended specs are quite low, it should be noted that if you do run resource heavy tasks then Openmediavault is capable as long as the specifications are increased appropriately. Specifications can go a lot higher than the recommended specs.</p>
+<h2 class="display-6">Supported Storage Protocols</h2>
+<table class="table-hover rounded rounded-3 overflow-hidden table table-striped table-bordered table-primary border-light table-sm">
+<thead>
+<tr>
+<th scope="col">Protocol</th>
+<th scope="col">TrueNAS</th>
+<th scope="col">OpenMediaVault</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NFS</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>SMB/CIFS</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>iSCSI</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>Fibre Channel</td>
+<td>NO</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>SCSI</td>
+<td>NO</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>SAS</td>
+<td>NO</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>S3</td>
+<td>NO</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>AFP</td>
+<td>NO</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>FTPS</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>SFTP</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>WebDAV</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>AoE</td>
+<td>NO</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>NFSv4</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>NBD</td>
+<td>NO</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>iSER</td>
+<td>NO</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>IPoFC</td>
+<td>NO</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>NVMe-oF</td>
+<td>NO</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>NVMe over TCP</td>
+<td>NO</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>NVMe over RDMA</td>
+<td>NO</td>
+<td>NO</td>
+</tr>
+</tbody>
 </table>
-<h2><span style="font-weight: 400;">File System Compatibility</span></h2>
+<h2 class="display-6">File System Compatibility</h2>
 <table class="rounded rounded-3 overflow-hidden table table-striped table-bordered table-primary border-light table-sm">
-  <thead>
-    <tr>
-      <th scope="col">File System</th>
-      <th scope="col">TrueNAS</th>
-      <th scope="col">OpenMediaVault</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>NTFS</td>
-      <td>NO</td>
-      <td>NO</td>
-    </tr>
-    <tr>
-      <td>FAT</td>
-      <td>NO</td>
-      <td>YES</td>
-    </tr>
-    <tr>
-      <td>ext4</td>
-      <td>NO</td>
-      <td>YES</td>
-    </tr>
-    <tr>
-      <td>NFS</td>
-      <td>YES</td>
-      <td>YES</td>
-    </tr>
-    <tr>
-      <td>CIFS</td>
-      <td>YES</td>
-      <td>YES</td>
-    </tr>
-    <tr>
-      <td>HFS+</td>
-      <td>NO</td>
-      <td>NO</td>
-    </tr>
-    <tr>
-      <td>APFS</td>
-      <td>NO</td>
-      <td>NO</td>
-    </tr>
-    <tr>
-      <td>ZFS</td>
-      <td>YES</td>
-      <td>YES</td>
-    </tr>
-    <tr>
-      <td>exFAT</td>
-      <td>NO</td>
-      <td>NO</td>
-    </tr>
-    <tr>
-      <td>XFS</td>
-      <td>NO</td>
-      <td>YES</td>
-    </tr>
-  </tbody>
+<thead>
+<tr>
+<th scope="col">File System</th>
+<th scope="col">TrueNAS</th>
+<th scope="col">OpenMediaVault</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NTFS</td>
+<td>NO</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>FAT</td>
+<td>NO</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>ext4</td>
+<td>NO</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>NFS</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>CIFS</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>HFS+</td>
+<td>NO</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>APFS</td>
+<td>NO</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>ZFS</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>exFAT</td>
+<td>NO</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>XFS</td>
+<td>NO</td>
+<td>YES</td>
+</tr>
+</tbody>
 </table>
-<h2><span style="font-weight: 400;">Hardware Specifications</span></h2>
+<h2 class="display-6">Hardware Specifications</h2>
 <table class="rounded rounded-3 overflow-hidden table table-striped table-bordered table-primary border-light table-sm">
-  <thead>
-    <tr>
-      <th scope="col">TrueNAS - Minimum</th>
-      <th scope="col">OpenMediaVault - Minimum</th>
-      <th scope="col">TrueNAS - Recommended</th>
-      <th scope="col">OpenMediaVault - Recommended</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>8GB Ram</td>
-      <td>2GB Ram</td>
-      <td>16GB Ram</td>
-      <td>4GB Ram</td>
-    </tr>
-    <tr>
-      <td>1 Hard Disks</td>
-      <td>1 Hard Disk</td>
-      <td>5 Hard Disks</td>
-      <td>5 Hard Disks</td>
-    </tr>
-    <tr>
-      <td>64 Bit CPU</td>
-      <td>64 Bit CPU</td>
-      <td>Xeon/EPYC CPU</td>
-      <td>64 Bit CPU</td>
-    </tr>
-    <tr>
-      <td>16GB Flash Drive</td>
-      <td>8GB Flash Drive</td>
-      <td>64GB Flash Drive</td>
-      <td>8GB Flash Drive</td>
-    </tr>
-    <tr>
-      <td>1x Gigabit Ethernet</td>
-      <td>1x Gigabit Ethernet</td>
-      <td>10GbE or Higher</td>
-      <td>1x Gigabit Ethernet</td>
-    </tr>
-  </tbody>
+<thead>
+<tr>
+<th scope="col">TrueNAS - Minimum</th>
+<th scope="col">OpenMediaVault - Minimum</th>
+<th scope="col">TrueNAS - Recommended</th>
+<th scope="col">OpenMediaVault - Recommended</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>8GB Ram</td>
+<td>2GB Ram</td>
+<td>16GB Ram</td>
+<td>4GB Ram</td>
+</tr>
+<tr>
+<td>1 Hard Disks</td>
+<td>1 Hard Disk</td>
+<td>5 Hard Disks</td>
+<td>5 Hard Disks</td>
+</tr>
+<tr>
+<td>64 Bit CPU</td>
+<td>64 Bit CPU</td>
+<td>Xeon/EPYC CPU</td>
+<td>64 Bit CPU</td>
+</tr>
+<tr>
+<td>16GB Flash Drive</td>
+<td>8GB Flash Drive</td>
+<td>64GB Flash Drive</td>
+<td>8GB Flash Drive</td>
+</tr>
+<tr>
+<td>1x Gigabit Ethernet</td>
+<td>1x Gigabit Ethernet</td>
+<td>10GbE or Higher</td>
+<td>1x Gigabit Ethernet</td>
+</tr>
+</tbody>
 </table>
-<p><span style="font-weight: 400;">&nbsp;</span></p>
-<h2><span style="font-weight: 400;">Supported Storage Protocols and File Systems</span></h2>
-<p><span style="font-weight: 400;">TrueNAS and Openmediavault support slightly different protocols and file systems.&nbsp;</span></p>
-<p><span style="font-weight: 400;">TrueNAS supports NFS, SMB/CIFS, AFP, iSCSI, FC, and S3 protocols. Additionally, it also supports the ZFS file system, which provides advanced data management features such as snapshots, clones, and data compression.</span></p>
-<p><span style="font-weight: 400;">Openmediavault supports NFS, SMB/CIFS, AFP, FTP and NFS-RDMA protocols.</span></p>
-<p><span style="font-weight: 400;">Openmediavault does not support advanced data management features such as snapshots, clones, and data compression natively however there are third party backup plugins that can provide these features. It is a bit clunky though..</span></p>
-<h2><span style="font-weight: 400;">Storage Scalability and High Availability</span></h2>
-<p><span style="font-weight: 400;">Scalability and high availability are important considerations for IT infrastructure solution providers when selecting a storage solution. TrueNAS and Openmediavault have different approaches to scalability and high availability.</span></p>
-<p><span style="font-weight: 400;">Both TrueNAS and Openmediavault support </span><a href="https://cloudian.com/blog/scale-up-vs-scale-out-storage/#:~:text=Scale%2Dup is the most,limits of the storage controllers."><span style="font-weight: 400;">scale-up and scale-out</span></a><span style="font-weight: 400;"> architectures. In a scale-up architecture, </span><a href="https://optimizeddocs.com/blogs/backups/backup-hardware-index"><span style="font-weight: 400;">additional SSDs</span></a><span style="font-weight: 400;"> can be added to a single system to increase storage capacity. In a scale-out architecture, additional systems can be added to the network to increase storage capacity.&nbsp;</span></p>
-<p><span style="font-weight: 400;">Additionally, TrueNAS supports high availability through </span><a href="https://www.truenas.com/blog/truenas-high-availability-ha-explained/"><span style="font-weight: 400;">active-passive failover</span></a><span style="font-weight: 400;">, where a secondary system takes over if the primary system fails.</span></p>
-<p><span style="font-weight: 400;">**Openmediavault </span><strong>does not natively support </strong><span style="font-weight: 400;">active-passive failover; however if you were really desperate, you could use a combination of third party applications combined with the built in ability of Linux to achieve these features. Not recommended though.</span></p>
-<h2><span style="font-weight: 400;">Storage Data Protection and Management</span></h2>
-<p><span style="font-weight: 400;">Data protection and management are sought after aspects in any storage solution, and both TrueNAS and Openmediavault offer different features in this regard.</span></p>
-<p><span style="font-weight: 400;">TrueNAS offers advanced data protection features such as </span><a href="https://optimizeddocs.com/blogs/hardware/top level pages/virtual machine"><span style="font-weight: 400;">virtual drive snapshots</span></a><span style="font-weight: 400;">, clones, and data compression.&nbsp;</span></p>
-<p><span style="font-weight: 400;">Snapshots allow users to take point-in-time copies of their data for </span><a href="https://optimizeddocs.com/blogs/backups/backups-index-page-01"><span style="font-weight: 400;">backup and disaster recovery</span></a><span style="font-weight: 400;"> purposes. Clones allow users to create multiple copies of a dataset without duplicating data. Data compression reduces the size of data on the disk, resulting in improved storage efficiency.</span></p>
-<p><span style="font-weight: 400;">Openmediavault offers </span><a href="https://optimizeddocs.com/blogs/backups/backup strategies/choosing an msp backup solution"><span style="font-weight: 400;">simple storage protection features</span></a><span style="font-weight: 400;"> such as RAID levels, hot spares, and replication. RAID levels provide redundancy in case of hard drive failure, while hot spares allow for immediate replacement of a failed drive. Replication allows data to be copied to a </span><a href="https://optimizeddocs.com/blogs/apps/top level pages/msp monitoring apps overview"><span style="font-weight: 400;">remote site</span></a><span style="font-weight: 400;"> for backup and recovery purposes.</span></p>
-<p><span style="font-weight: 400;">&nbsp;</span></p>
-<h2><span style="font-weight: 400;">Openmediavault</span></h2>
-<h3><span style="font-weight: 400;">Openmediavault Advantages</span></h3>
-<p><span style="font-weight: 400;">Openmediavault has several benefits that make it an appealing choice for some users.&nbsp;</span></p>
-<p><strong>These include:</strong></p>
-<h4><span style="font-weight: 400;">Storage Flexibility</span></h4>
-<p><span style="font-weight: 400;">One of the main advantages of Openmediavault is its flexibility. It can be customized to suit the specific needs of a particular organization or individual user. It also supports a wide range of hardware platforms and architectures, making it a versatile solution.</span></p>
-<p><span style="font-weight: 400;">&nbsp;</span></p>
-<h4><span style="font-weight: 400;">Open Source Based Software</span></h4>
-<p><span style="font-weight: 400;">Openmediavault is an </span><a href="https://optimizeddocs.com/blogs/apps/msp open source apps-index"><span style="font-weight: 400;">open-sourced solution</span></a><span style="font-weight: 400;">, which means that the source code is available and can be modified and distributed by anyone. This can be an advantage for organizations that want to customize the software to meet their specific needs, or for individuals who want to learn more about how the software works.</span></p>
-<h3><span style="font-weight: 400;">User-Friendly Web Interface</span></h3>
-<p><span style="font-weight: 400;">OMV has a really user-friendly web-based interface making it easy to manage and configure storage resources, network settings, user accounts, and other NAS functionalities with simplicity.</span></p>
-<p><span style="font-weight: 400;">This makes OMV accessible to both novice technician and experienced users, enabling efficient management of storage infrastructure without extensive technical knowledge.</span></p>
-<h3><span style="font-weight: 400;">Extensive Plugin Ecosystem</span></h3>
-<p><span style="font-weight: 400;">OMV has a great and wide ranging set of plugins (Not far from the likes of Synology) that it is compatible with which extend its functionality beyond basic NAS features.&nbsp;</span></p>
-<p><span style="font-weight: 400;">The plugin system allows users to customize and enhance OMV based on their specific requirements.&nbsp;</span></p>
-<p><span style="font-weight: 400;">From backup and replication tools to media servers and virtualization support, the plugin ecosystem provides a wide range of options to tailor OMV to your needs, making it a versatile and adaptable solution.</span></p>
-<h3><span style="font-weight: 400;">Active Community and Regular Updates</span></h3>
-<p><span style="font-weight: 400;">Like many open source applications, OMV benefits from an active user community. The community actively contributes to the development, support, and improvement of OMV.&nbsp;</span></p>
-<p><span style="font-weight: 400;">There are regular updates and bug fixes ensuring a stable and up-to-date NAS solution. My experience has been that it is one of the better communities out there.</span></p>
-<h3><span style="font-weight: 400;">Openmediavault Disadvantages</span></h3>
-<p><span style="font-weight: 400;">However, there are also some drawbacks to using Openmediavault.&nbsp;</span></p>
-<p><strong>These include:</strong></p>
-<h4><span style="font-weight: 400;">Lack of Advanced Enterprise Features</span></h4>
-<p><span style="font-weight: 400;">While it is perfect for the home user or very small business, Openmediavault lacks some important features many cannot do without such as active-passive failover, deduplication, advanced snapshot management and lack of advanced data management processes.</span></p>
-<h4><span style="font-weight: 400;">Lack Of Official Tech Support</span></h4>
-<p><span style="font-weight: 400;">Unlike TrueNAS, Openmediavault does not offer official commercial support. This means that users are reliant on community support forums and documentation for assistance with any issues that may arise. This is always going to be an issue when time is limited and of course the quality of support given is best effort only.</span></p>
-<h3><span style="font-weight: 400;">Scalability and Future Growth Potential</span></h3>
-<p><span style="font-weight: 400;">As doctor Phil once said, let's not sugar coat things because you will eat that too.</span></p>
-<p><span style="font-weight: 400;">Openmediavault is not in the same league as TrueNAS in nearly all areas. It is great for home and small business use but not for the high reliability needed in corporate environments. It does not compare to TrueNAS in that regard.</span></p>
-<h2><span style="font-weight: 400;">The Verdict</span></h2>
-<p><span style="font-weight: 400;">TrueNAS is developed and supported by </span><a href="https://www.ixsystems.com/"><span style="font-weight: 400;">iXsystems</span></a><span style="font-weight: 400;">, a reputable company with history in the </span><a href="https://optimizeddocs.com/blogs/backups/top level pages/backup vendors overview"><span style="font-weight: 400;">data storage industry</span></a><span style="font-weight: 400;">. iXsystems has committed to continuing its use of open-source software and is dedicated to the ongoing development and improvement of TrueNAS.</span></p>
-<p><span style="font-weight: 400;">Their focus on continuous innovation and </span><a href="https://optimizeddocs.com/blogs/consulting/general msp business/shocking reasons msp clients leave"><span style="font-weight: 400;">customer satisfaction</span></a><span style="font-weight: 400;"> contributes to the reliability and quality of the TrueNAS platform.</span></p>
-<p><span style="font-weight: 400;">While Openmediavault also offers storage solutions, they are not in the same ballpark as TrueNAS, not even the same game.&nbsp;</span></p>
-<p><span style="font-weight: 400;">TrueNAS provides a far more comprehensive and mature feature set, better community support, scalability, and overall reliability for commercial environments.&nbsp;</span></p>
-<p><span style="font-weight: 400;">TrueNAS is generally preferred for commercial environments and with good reason, there are no&nbsp; circumstances I can think of where Openmediavault may be a more suitable choice.</span></p>
-<p><span style="font-weight: 400;">Even if the existing system is Openmediavault, it would likely be a better strategy to remove it and put TrueNAS in its place especially if you believe there will be any sort of growth over time.</span></p>
-<p><span style="font-weight: 400;">TrueNAS is head and shoulders above Openmediavault. We found it easier to navigate around and use. Overall it is just a much more sophisticated and proven product than Openmediavault.</span></p>
-<h2><span style="font-weight: 400;">The Conclusion</span></h2>
-<p><span style="font-weight: 400;">TrueNAS definitely wins in pretty much all areas in this head to head comparison although both have the ability to effectively run your network storage devices.</span></p>
-<p><span style="font-weight: 400;">We recommend TrueNAS for serious commercial undertakings and recommend only using Openmediavault on very small clients where growth is not expected. We hope this article has provided you with a solid foundation and understanding of this topic.</span></p>
-<p><span style="font-weight: 400;">We have a number of other backup hardware articles listed below that will provide you with more detailed information on a number of related topics:</span></p>
-<p><a href="https://optimizeddocs.com/blogs/backups/backup-hardware-index"><span style="font-weight: 400;">https://optimizeddocs.com/blogs/backups/backup-hardware-index</span></a></p>
-<p><span style="font-weight: 400;">Our team specializes in strategies for </span><a href="https://optimizeddocs.com/"><span style="font-weight: 400;">IT infrastructure solution providers</span></a><span style="font-weight: 400;"> and we assist in improving profit margins through standardization and consistent record keeping strategies, so you can be confident that our content is tailored to your needs.</span></p>
-<p><span style="font-weight: 400;">We use a rigid dictionary of terms that we implement across all of your technical documents that is tailored specifically towards IT infrastructure solution providers. It means your documentation remains consistent over the long term and your staff have a solid set of rules to follow allowing them to effortlessly maintain your record keeping standards.</span></p>
-<p><span style="font-weight: 400;">Please feel free to explore our other articles and click on any that interest you. If you have any questions or would like to learn more about how we can help you with your documentation needs, please click the "Get In Touch" button to the left and we will be happy to assist you. Thank you for choosing us as your trusted source for technology documentation.</span></p>
-<p><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
-<p><span style="font-weight: 400;">As a documentation service provider to managed service providers (MSPs) in North America, I have gained a deep understanding of the various technologies and solutions used by MSPs to manage their clients' IT environments. One of the key considerations for MSPs is selecting the right storage and network management platform for their clients. Two of the most popular solutions in this space are TrueNAS and OpenMediaVault.</span></p>
-<p><span style="font-weight: 400;">In this article, I will provide an overview of these two platforms, highlight their key features and benefits, and compare them to help MSPs make an informed decision when choosing between them. While I do not have direct experience using either platform, my work with MSPs has provided me with a deep understanding of their requirements and the challenges they face when selecting and implementing technology solutions.</span></p>
-<p><span style="font-weight: 400;">As MSPs increasingly focus on providing comprehensive managed services to their clients in the United States, it is critical to have a solid understanding of the differences between TrueNAS and OpenMediaVault. This article aims to provide a clear and concise comparison of the two platforms, and highlight the factors that MSPs should consider when evaluating their options.</span></p>
-<p><span style="font-weight: 400;">At its core, this article is about helping MSPs provide better managed services to their clients by selecting the right storage and network management platform for their needs. Whether you are an MSP or simply interested in learning more about TrueNAS and OpenMediaVault, this article will provide you with a comprehensive overview of the fundamentals and basics of these two solutions, and enable you to make an informed decision when selecting a platform for your clients. So, let's dive in and explore the world of TrueNAS and OpenMediaVault.</span></p>
-<h2><span style="font-weight: 400;">TrueNAS:</span></h2>
-<p><span style="font-weight: 400;">TrueNAS is an open-source network-attached storage (NAS) platform developed by iXsystems. It is a powerful storage solution that offers a wide range of features, making it an attractive option for MSPs managing complex IT environments. Here are some of the key features of TrueNAS:</span></p>
-<ol>
-<li style="font-weight: 400;"><strong>Operating System: </strong><span style="font-weight: 400;">TrueNAS is based on FreeBSD, a UNIX-like operating system that provides a stable and reliable foundation for the platform.</span></li>
-<li style="font-weight: 400;"><strong>Storage Capabilities: </strong><span style="font-weight: 400;">TrueNAS offers a range of storage capabilities, including block, file, and object storage. It also supports various protocols, such as SMB, NFS, iSCSI, and AFP, allowing MSPs to easily integrate TrueNAS with their existing IT infrastructure.</span></li>
-<li style="font-weight: 400;"><strong>Networking Features: </strong><span style="font-weight: 400;">TrueNAS comes with advanced networking features such as link aggregation, VLAN tagging, and virtual interfaces, enabling MSPs to create highly available and fault-tolerant networks.</span></li>
-<li style="font-weight: 400;"><strong>User Interface and Management: </strong><span style="font-weight: 400;">TrueNAS offers a web-based user interface that makes it easy for MSPs to manage their storage systems. The user interface is intuitive and provides access to a wide range of features and settings, enabling MSPs to customize their storage environments to meet their specific needs.</span></li>
-<li style="font-weight: 400;"><strong>Scalability and Customization:</strong><span style="font-weight: 400;"> TrueNAS is highly scalable, allowing MSPs to easily add or remove storage capacity as their clients' needs change. It also offers a range of customization options, such as the ability to create custom alerts and notifications, making it easy for MSPs to tailor the platform to their specific requirements.</span></li>
-<li style="font-weight: 400;"><strong>Security:</strong><span style="font-weight: 400;"> TrueNAS provides a range of security features, including built-in encryption, role-based access control, and advanced auditing and logging capabilities, ensuring that data stored on the platform is secure and protected from unauthorized access.</span></li>
-</ol>
-<p><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
-<h2><span style="font-weight: 400;">OpenMediaVault:</span></h2>
-<p><span style="font-weight: 400;">OpenMediaVault is another popular open-source NAS platform that offers a wide range of features and capabilities. Developed by Volker Theile, it is based on Debian Linux and provides a user-friendly interface that makes it easy for MSPs to manage their storage environments. Here are some of the key features of OpenMediaVault:</span></p>
-<ol>
-<li style="font-weight: 400;"><strong>Operating System:</strong><span style="font-weight: 400;"> OpenMediaVault is based on Debian Linux, a widely used and popular open-source operating system.</span></li>
-<li style="font-weight: 400;"><strong>Storage Capabilities:</strong><span style="font-weight: 400;"> OpenMediaVault supports various storage capabilities, including file, block, and object storage. It also supports various protocols, such as SMB, NFS, and FTP, making it easy for MSPs to integrate the platform with their existing IT infrastructure.</span></li>
-<li style="font-weight: 400;"><strong>Networking Features:</strong><span style="font-weight: 400;"> OpenMediaVault comes with advanced networking features such as link aggregation, VLAN tagging, and virtual interfaces, enabling MSPs to create highly available and fault-tolerant networks.</span></li>
-<li style="font-weight: 400;"><strong>User Interface and Management: </strong><span style="font-weight: 400;">OpenMediaVault provides a web-based user interface that is easy to use and navigate. The interface provides access to a range of features and settings, enabling MSPs to customize their storage environments to meet their specific requirements.</span></li>
-<li style="font-weight: 400;"><strong>Scalability and Customization:</strong><span style="font-weight: 400;"> OpenMediaVault is highly scalable, allowing MSPs to easily add or remove storage capacity as their clients' needs change. It also offers a range of customization options, such as the ability to install plugins and extensions, making it easy for MSPs to tailor the platform to their specific needs.</span></li>
-<li style="font-weight: 400;"><strong>Security:</strong><span style="font-weight: 400;"> OpenMediaVault provides a range of security features, including built-in encryption, role-based access control, and advanced auditing and logging capabilities, ensuring that data stored on the platform is secure and protected from unauthorized access.</span></li>
-</ol>
-<h2><span style="font-weight: 400;">Comparison of TrueNAS and OpenMediaVault</span></h2>
-<p><span style="font-weight: 400;">When it comes to choosing between TrueNAS and OpenMediaVault, it ultimately depends on your specific needs and preferences. Here's a breakdown of the key features and differences between the two platforms:</span></p>
-<h3><span style="font-weight: 400;">TrueNAS</span></h3>
-<p><span style="font-weight: 400;">TrueNAS is a powerful and flexible storage solution that offers enterprise-level features and scalability. Here are some of its main advantages:</span></p>
-<ul>
-<li style="font-weight: 400;"><strong>ZFS File System: </strong><span style="font-weight: 400;">TrueNAS uses the ZFS file system, which provides advanced data protection, storage efficiency, and easy snapshot and replication features.</span></li>
-<li style="font-weight: 400;"><strong>High Availability:</strong><span style="font-weight: 400;"> TrueNAS can be configured for high availability (HA), which means that multiple TrueNAS systems can be clustered together to provide redundancy and failover protection.</span></li>
-<li style="font-weight: 400;"><strong>Virtualization: </strong><span style="font-weight: 400;">TrueNAS supports virtualization through integration with popular hypervisors like VMware and Hyper-V.</span></li>
-<li style="font-weight: 400;"><strong>Commercial Support:</strong><span style="font-weight: 400;"> TrueNAS is backed by iXsystems, a company that offers commercial support, training, and consulting services.</span></li>
-</ul>
-<h3><span style="font-weight: 400;">OpenMediaVault</span></h3>
-<p><span style="font-weight: 400;">OpenMediaVault is a user-friendly and lightweight NAS solution that is ideal for home or small office use. Here are some of its main advantages:</span></p>
-<ul>
-<li style="font-weight: 400;"><strong>Web-based GUI: </strong><span style="font-weight: 400;">OpenMediaVault has a user-friendly web-based GUI that makes it easy to set up and manage your NAS.</span></li>
-<li style="font-weight: 400;"><strong>Plugin Ecosystem:</strong><span style="font-weight: 400;"> OpenMediaVault has a plugin ecosystem that allows you to extend its functionality with a wide range of community-developed plugins.</span></li>
-<li style="font-weight: 400;"><strong>Free and Open Source: </strong><span style="font-weight: 400;">OpenMediaVault is free and open source, which means that you can download and use it without any licensing costs.</span></li>
-<li style="font-weight: 400;"><strong>Active Community:</strong><span style="font-weight: 400;"> OpenMediaVault has an active and helpful community that provides support and assistance for users.</span></li>
-</ul>
-<h2><span style="font-weight: 400;">Features of TrueNAS</span></h2>
-<p><span style="font-weight: 400;">TrueNAS offers a range of features designed to meet the needs of businesses of all sizes. Some of its key features include:</span></p>
-<h3><span style="font-weight: 400;">ZFS File System</span></h3>
-<p><span style="font-weight: 400;">TrueNAS uses the ZFS file system, which provides advanced features such as data integrity, snapshots, and replication. This makes it a reliable and secure solution for storing critical business data.</span></p>
-<h3><span style="font-weight: 400;">High Availability</span></h3>
-<p><span style="font-weight: 400;">TrueNAS supports high availability (HA) configurations, which ensure that data is always available even in the event of hardware failure. This makes it a suitable solution for businesses that require maximum uptime.</span></p>
-<h3><span style="font-weight: 400;">Replication and Backup</span></h3>
-<p><span style="font-weight: 400;">TrueNAS supports replication and backup features that allow businesses to easily create backups of their data and replicate it to other locations for disaster recovery purposes.</span></p>
-<h3><span style="font-weight: 400;">Scalability</span></h3>
-<p><span style="font-weight: 400;">TrueNAS is highly scalable and can be easily expanded to meet the growing storage needs of a business.</span></p>
-<h3><span style="font-weight: 400;">Security</span></h3>
-<p><span style="font-weight: 400;">TrueNAS provides a range of security features, including encryption, access control, and auditing, to ensure that data is secure and protected from unauthorized access.</span></p>
-<h2><span style="font-weight: 400;">Features of OpenMediaVault</span></h2>
-<p><span style="font-weight: 400;">OpenMediaVault is another popular open-source storage solution that offers a range of features suitable for MSPs. Some of its key features include:</span></p>
-<h3><span style="font-weight: 400;">Web-based Management Interface</span></h3>
-<p><span style="font-weight: 400;">OpenMediaVault provides a web-based management interface, making it easy for businesses to manage their storage solutions remotely.</span></p>
-<h3><span style="font-weight: 400;">Plugin System</span></h3>
-<p><span style="font-weight: 400;">OpenMediaVault uses a plugin system that allows businesses to easily add new features and functionality to their storage solutions. This makes it a flexible and customizable solution.</span></p>
-<h3><span style="font-weight: 400;">Replication and Backup</span></h3>
-<p><span style="font-weight: 400;">OpenMediaVault also supports replication and backup features, making it easy for businesses to create backups of their data and replicate it to other locations for disaster recovery purposes.</span></p>
-<h3><span style="font-weight: 400;">User Management</span></h3>
-<p><span style="font-weight: 400;">OpenMediaVault provides advanced user management features, including access control and permissions, making it easy for businesses to manage access to their data.</span></p>
-<h3><span style="font-weight: 400;">Monitoring and Alerts</span></h3>
-<p><span style="font-weight: 400;">OpenMediaVault provides monitoring and alerts features that allow businesses to monitor the performance of their storage solutions and receive alerts when issues arise.</span></p>
-<h2><span style="font-weight: 400;">Which Solution is Best for MSPs?</span></h2>
-<p><span style="font-weight: 400;">Our results have shown that both TrueNAS and OpenMediaVault offer a range of features suitable for MSPs. However, the choice between the two solutions will ultimately depend on the specific needs of a business. TrueNAS is a reliable and secure solution that provides advanced features such as data integrity and high availability. OpenMediaVault, on the other hand, is a flexible and customizable solution that provides advanced user management and monitoring features.</span></p>
-<p><span style="font-weight: 400;">Managed Services Provider Documentation plays a crucial role in the management of IT systems. Both TrueNAS and OpenMediaVault provide replication and backup features, making them suitable solutions for MSPs looking to ensure data availability and disaster recovery. Additionally, the user management features of OpenMediaVault make it a suitable solution for MSPs looking to manage access to data for their clients.</span></p>
-<p><span style="font-weight: 400;">In conclusion, MSPs should carefully evaluate their specific needs and requirements before choosing between TrueNAS and OpenMediaVault. Both solutions provide a range of features that can help businesses store and manage their data effectively.</span></p>
-<p><span style="font-weight: 400;">After comparing TrueNAS and OpenMediaVault, it is evident that both platforms have their strengths and weaknesses. However, my results show that TrueNAS is the better option for businesses that require more advanced features and enterprise-grade storage solutions.</span></p>
-<p><span style="font-weight: 400;">TrueNAS offers a comprehensive range of features such as snapshot and replication management, virtualization support, and advanced security features, making it a robust and reliable storage platform. Moreover, TrueNAS is backed by iXsystems, which provides reliable support and documentation services to help businesses effectively manage their storage infrastructure.</span></p>
-<p><span style="font-weight: 400;">On the other hand, OpenMediaVault is a good option for businesses that require a simple and user-friendly storage solution. OpenMediaVault offers basic features such as disk management, network sharing, and web-based management, making it a suitable choice for small businesses or home users.</span></p>
-<p><span style="font-weight: 400;">In terms of Managed Services Provider Documentation, both TrueNAS and OpenMediaVault offer comprehensive documentation and support services. However, TrueNAS stands out in this aspect, offering detailed documentation and support services, which are particularly useful for Managed Service Providers that require more advanced storage solutions for their clients.</span></p>
-<p><span style="font-weight: 400;">Overall, the choice between TrueNAS and OpenMediaVault depends on the specific needs of a business or individual user. While TrueNAS offers advanced features and reliability, OpenMediaVault is a simple and user-friendly option. By understanding the strengths and weaknesses of each platform, businesses can make an informed decision that aligns with their unique requirements.</span></p>
-<p><span style="font-weight: 400;">Thank you for reading this overview of TrueNAS and OpenMediaVault. We hope this article has given you a good understanding of the fundamentals and basics of these two systems.</span></p>
-<p><span style="font-weight: 400;">If you are interested in learning more about specific features or functionalities of TrueNAS and OpenMediaVault, be sure to check out the other articles listed on this page. Each of these articles will provide more detailed information about various aspects of these systems.</span></p>
-<p><span style="font-weight: 400;">At Optimized Documentation, we specialize in documentation strategies for Managed Service Providers, and we understand the importance of having accurate and comprehensive documentation to ensure smooth and efficient operations. If you have any questions or would like to learn more about our services, please click the "Get In Touch" button to the left to contact us.</span></p>
-<p><span style="font-weight: 400;">&nbsp;</span></p>
-<p><br /><br /></p>
+<h2 class="display-6">Supported Storage Protocols and File Systems</h2>
+<p>TrueNAS and Openmediavault support slightly different protocols and file systems.</p>
+<p>TrueNAS supports NFS, SMB/CIFS, AFP, iSCSI, FC, and S3 protocols. Additionally, it also supports the ZFS file system, which provides advanced data management features such as snapshots, clones, and data compression.</p>
+<p>Openmediavault supports NFS, SMB/CIFS, AFP, FTP and NFS-RDMA protocols.</p>
+<p>Openmediavault does not support advanced data management features such as snapshots, clones, and data compression natively however there are third party backup plugins that can provide these features. It is a bit clunky though..</p>
+<h2 class="display-6">Storage Scalability and High Availability</h2>
+<p>Scalability and high availability are important considerations for IT infrastructure solution providers when selecting a storage solution. TrueNAS and Openmediavault have different approaches to scalability and high availability.</p>
+<p>Both TrueNAS and Openmediavault support <a href="https://cloudian.com/blog/scale-up-vs-scale-out-storage/#:~:text=Scale%2Dup is the most,limits of the storage controllers.">scale-up and scale-out</a> architectures. In a scale-up architecture, <a href="https://optimizeddocs.com/blogs/backups/backup-hardware-index">additional SSDs</a> can be added to a single system to increase storage capacity. In a scale-out architecture, additional systems can be added to the network to increase storage capacity.</p>
+<p>Additionally, TrueNAS supports high availability through <a href="https://www.truenas.com/blog/truenas-high-availability-ha-explained/">active-passive failover</a>, where a secondary system takes over if the primary system fails.</p>
+<p>**Openmediavault <strong>does not natively support </strong>active-passive failover; however if you were really desperate, you could use a combination of third party applications combined with the built in ability of Linux to achieve these features. Not recommended though.</p>
+<h2 class="display-6">Storage Data Protection and Management</h2>
+<p>Data protection and management are sought after aspects in any storage solution, and both TrueNAS and Openmediavault offer different features in this regard.</p>
+<p>TrueNAS offers advanced data protection features such as <a href="https://optimizeddocs.com/blogs/hardware/top level pages/virtual machine">virtual drive snapshots</a>, clones, and data compression.</p>
+<p>Snapshots allow users to take point-in-time copies of their data for <a href="https://optimizeddocs.com/blogs/backups/backups-index-page-01">backup and disaster recovery</a> purposes. Clones allow users to create multiple copies of a dataset without duplicating data. Data compression reduces the size of data on the disk, resulting in improved storage efficiency.</p>
+<p>Openmediavault offers <a href="https://optimizeddocs.com/blogs/backups/backup strategies/choosing an msp backup solution">simple storage protection features</a> such as RAID levels, hot spares, and replication. RAID levels provide redundancy in case of hard drive failure, while hot spares allow for immediate replacement of a failed drive. Replication allows data to be copied to a <a href="https://optimizeddocs.com/blogs/apps/top level pages/msp monitoring apps overview">remote site</a> for backup and recovery purposes.</p>
+<h2 class="display-6">Openmediavault Advantages</h2>
+<p>Openmediavault has several benefits that make it an appealing choice for some users.</p>
+<h4 class="display-4">Storage Flexibility</h4>
+<p>One of the main advantages of Openmediavault is its flexibility. It can be customized to suit the specific needs of a particular organization or individual user. It also supports a wide range of hardware platforms and architectures, making it a versatile solution.</p>
+<h4 class="display-4">Open Source Based Software</h4>
+<p>Openmediavault is an <a href="https://optimizeddocs.com/blogs/apps/msp open source apps-index">open-sourced solution</a>, which means that the source code is available and can be modified and distributed by anyone. This can be an advantage for organizations that want to customize the software to meet their specific needs, or for individuals who want to learn more about how the software works.</p>
+<h4 class="display-4">User-Friendly Web Interface</h4>
+<p>OMV has a really user-friendly web-based interface making it easy to manage and configure storage resources, network settings, user accounts, and other NAS functionalities with simplicity.</p>
+<p>This makes OMV accessible to both novice technician and experienced users, enabling efficient management of storage infrastructure without extensive technical knowledge.</p>
+<h4 class="display-4">Extensive Plugin Ecosystem</h4>
+<p>OMV has a great and wide ranging set of plugins (Not far from the likes of Synology) that it is compatible with which extend its functionality beyond basic NAS features.</p>
+<p>The plugin system allows users to customize and enhance OMV based on their specific requirements.</p>
+<p>From backup and replication tools to media servers and virtualization support, the plugin ecosystem provides a wide range of options to tailor OMV to your needs, making it a versatile and adaptable solution.</p>
+<h4 class="display-4">Active Community and Regular Updates</h4>
+<p>Like many open source applications, OMV benefits from an active user community. The community actively contributes to the development, support, and improvement of OMV.</p>
+<p>There are regular updates and bug fixes ensuring a stable and up-to-date NAS solution. My experience has been that it is one of the better communities out there.</p>
+<h2 class="display-6">Openmediavault Disadvantages</h2>
+<p>However, there are also some drawbacks to using Openmediavault.</p>
+<h4 class="display-4">Lack of Advanced Enterprise Features</h4>
+<p>While it is perfect for the home user or very small business, Openmediavault lacks some important features many cannot do without such as active-passive failover, deduplication, advanced snapshot management and lack of advanced data management processes.</p>
+<h4 class="display-4">Lack Of Official Tech Support</h4>
+<p>Unlike TrueNAS, Openmediavault does not offer official commercial support. This means that users are reliant on community support forums and documentation for assistance with any issues that may arise. This is always going to be an issue when time is limited and of course the quality of support given is best effort only.</p>
+<h4 class="display-4">Scalability and Future Growth Potential</h4>
+<p>As doctor Phil once said, let's not sugar coat things because you will eat that too.</p>
+<p>Openmediavault is not in the same league as TrueNAS in nearly all areas. It is great for home and small business use but not for the high reliability needed in corporate environments. It does not compare to TrueNAS in that regard.</p>
+<h2 class="display-6">The Verdict</h2>
+<p>TrueNAS is developed and supported by <a href="https://www.ixsystems.com/">iXsystems</a>, a reputable company with history in the <a href="https://optimizeddocs.com/blogs/backups/top level pages/backup vendors overview">data storage industry</a>. iXsystems has committed to continuing its use of open-source software and is dedicated to the ongoing development and improvement of TrueNAS.</p>
+<p>Their focus on continuous innovation and <a href="https://optimizeddocs.com/blogs/consulting/general msp business/shocking reasons msp clients leave">customer satisfaction</a> contributes to the reliability and quality of the TrueNAS platform.</p>
+<p>While Openmediavault also offers storage solutions, they are not in the same ballpark as TrueNAS, not even the same game.</p>
+<p>TrueNAS provides a far more comprehensive and mature feature set, better community support, scalability, and overall reliability for commercial environments.</p>
+<p>TrueNAS is generally preferred for commercial environments and with good reason, there are no circumstances I can think of where Openmediavault may be a more suitable choice.</p>
+<p>Even if the existing system is Openmediavault, it would likely be a better strategy to remove it and put TrueNAS in its place especially if you believe there will be any sort of growth over time.</p>
+<p>TrueNAS is head and shoulders above Openmediavault. We found it easier to navigate around and use. Overall it is just a much more sophisticated and proven product than Openmediavault.</p>
+<h2 class="display-6">The Conclusion</h2>
+<p>TrueNAS definitely wins in pretty much all areas in this head to head comparison although both have the ability to effectively run your network storage devices.</p>
+<p>We recommend TrueNAS for serious commercial undertakings and recommend only using Openmediavault on very small clients where growth is not expected. We hope this article has provided you with a solid foundation and understanding of this topic.</p>
+<p>We have a number of other backup hardware articles listed below that will provide you with more detailed information on a number of related topics:</p>
+<p><a href="https://optimizeddocs.com/blogs/backups/backup-hardware-index">https://optimizeddocs.com/blogs/backups/backup-hardware-index</a></p>
+<p>Our team specializes in strategies for <a href="https://optimizeddocs.com/">IT infrastructure solution providers</a> and we assist in improving profit margins through standardization and consistent record keeping strategies, so you can be confident that our content is tailored to your needs.</p>
+<p>We use a rigid dictionary of terms that we implement across all of your technical documents that is tailored specifically towards IT infrastructure solution providers. It means your documentation remains consistent over the long term and your staff have a solid set of rules to follow allowing them to effortlessly maintain your record keeping standards.</p>
+<p>Please feel free to explore our other articles and click on any that interest you. If you have any questions or would like to learn more about how we can help you with your documentation needs, please click the "Get In Touch" button to the left and we will be happy to assist you. Thank you for choosing us as your trusted source for technology documentation.</p>
 	    </article>
     <header class="header text-center">
 	    <h2 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="../../../blog">MSP Backups</a></h2>
