@@ -24,6 +24,13 @@ a:hover {
     color: #777;	
 }
 
+.display-7 {
+    font-size:  1.4rem !important;
+    font-weight: 550 !important;
+    line-height: 1.2 !important;
+    color: #777;	
+	}
+
 .display-6 {
     font-size:  1.4rem !important;
     font-weight: 550 !important;
@@ -45,4 +52,4 @@ a:hover {
     font-weight: 550 !important;
     line-height: 1.2 !important;
 	    color: #777;
-	}		
+	}
