@@ -27,7 +27,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #F61 !important;
 }
 
@@ -830,7 +830,19 @@ a:focus {
 }
 
 .pricing-wrapper .item-3 .item-inner {
+  background: #0251c4;
+}
+
+.pricing-wrapper .item-4 .item-inner {
+  background: #d3c125;
+}
+
+.pricing-wrapper .item-5 .item-inner {
   background: #F8A13F;
+}
+
+.pricing-wrapper .item-6 .item-inner {
+  background: #df0116;
 }
 
 .pricing-wrapper .item-heading {

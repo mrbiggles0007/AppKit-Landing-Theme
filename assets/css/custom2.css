@@ -26,4 +26,15 @@
     font-weight: 350 !important;
     line-height: 1.2 !important;
 	    color: #777;
-	}		
+	}
+	
+a:-webkit-any-link {
+    color: -webkit-link #777;
+    cursor: pointer;
+    text-decoration: none;
+    text-decoration-line: ;
+    text-decoration-thickness: ;
+    text-decoration-style: ;
+    text-decoration-color: #777;
+}
+	
