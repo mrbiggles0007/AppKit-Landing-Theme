@@ -18,6 +18,11 @@ a:hover {
     color: #F61
 }
 
+a {
+    color: var(--bs-link-color);
+    text-decoration: none
+}
+
 .blog-post .title {
     font-weight: bold !important;
     font-size: 1.5rem !important;
